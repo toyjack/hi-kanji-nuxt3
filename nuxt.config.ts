@@ -2,6 +2,7 @@ import { defineNuxtConfig } from 'nuxt'
 
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  preset: 'node-server',
   modules: ['@nuxtjs/tailwindcss'],
   css: [
     '@/assets/css/tailwind.css',
@@ -16,7 +17,7 @@ export default defineNuxtConfig({
       // { rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css'}
     ],
   },
-  
+
   tailwindcss: {
     jit: true,
   }
