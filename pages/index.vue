@@ -16,9 +16,6 @@ async function search() {
 
   results.value.push(...resultList)
   if (resultNum < 100) {
-    console.log(resultList)
-
-    console.log(results.value)
     position = 1
   } else {
     position += 100
@@ -34,8 +31,8 @@ async function startSearch() {
 <template>
   <div class="bg-gray-100">
     <!-- header -->
-    <section class="bg-gradient-to-r from-cyan-500 to-blue-500">
-      <h3 class="text-3xl font-serif text-white  flex-1 uppercase">hi kanji search page</h3>
+    <section class="bg-gradient-to-r from-cyan-500 to-blue-500 p-20">
+      <h3 class="text-left text-3xl font-serif text-white  flex-1 uppercase">hi kanji search page</h3>
     </section>
 
     <!-- form -->
@@ -78,8 +75,9 @@ async function startSearch() {
     </section>
 
     <!-- footer -->
-    <footer class="bg-gradient-to-r from-cyan-500 to-blue-500 text-white flex items-center justify-center">
-      <div class="p-4">Copyright 2022 Guanwei Liu</div>
+    <footer class="bg-gradient-to-r from-cyan-500 to-blue-500 text-white flex flex-col items-center justify-center">
+      <div class="p-4">All images from <a href="https://www.hi.u-tokyo.ac.jp/en/" target="blank" class="underline">The Historiographical Institute of the University of Tokyo</a></div>
+      <div class="p-4">Copyright 2022 <a href="https://researchmap.jp/liuguanwei" target="blank" class="underline">Guanwei Liu</a></div>
     </footer>
   </div>
 </template>
