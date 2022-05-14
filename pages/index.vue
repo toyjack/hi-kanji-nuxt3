@@ -54,7 +54,7 @@ async function startSearch() {
       </div>
       <!-- results cards -->
       <div v-if="results.length > 0" class="flex flex-row flex-wrap p-1 m-0 sm:px-2 sm:py-4 justify-center">
-        <div v-for="item of results" class="w-1/3 sm:w-1/6 md:w-1/12 flex flex-col sm:p-1 bg-white border">
+        <div v-for="item of results" class="w-1/3 sm:w-1/6 lg:w-1/12 flex flex-col sm:p-1 bg-white border">
           <img :src="item.thumbnail_url" alt="" loading="lazy" class="sm:w-5/6 items-center justify-start border">
           <div class="hidden flex flex-col text-xs justify-end items-start">
             <div>
@@ -76,7 +76,7 @@ async function startSearch() {
 
     <!-- footer -->
     <footer class="bg-gradient-to-r from-cyan-500 to-blue-500 text-white flex flex-col items-center justify-center">
-      <div class="p-4">All images from <a href="https://www.hi.u-tokyo.ac.jp/en/" target="blank" class="underline">The Historiographical Institute of the University of Tokyo</a></div>
+      <div class="pt-4">All images from <a href="https://www.hi.u-tokyo.ac.jp/en/" target="blank" class="underline">The Historiographical Institute of the University of Tokyo</a></div>
       <div class="p-4">Copyright 2022 <a href="https://researchmap.jp/liuguanwei" target="blank" class="underline">Guanwei Liu</a></div>
     </footer>
   </div>
