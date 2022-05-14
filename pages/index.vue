@@ -34,14 +34,14 @@ async function startSearch() {
 <template>
   <div class="bg-gray-100">
     <!-- header -->
-    <section>
-      <h1 class="text-3xl font-serif text-white bg-blue-500 rounded flex-1 shadow">search page</h1>
+    <section class="bg-gradient-to-r from-cyan-500 to-blue-500">
+      <h3 class="text-3xl font-serif text-white  flex-1 uppercase">hi kanji search page</h3>
     </section>
 
     <!-- form -->
     <section>
-      <div class="flex flex-row sm:flex-row py-10 px-20 items-center justify-center gap-4">
-        <input type="text" placeholder="検索" v-model="hanzi" class="px-4 py-2 focus:border-blue-500">
+      <div class="flex flex-row sm:flex-row p-1 sm:py-10 sm:px-20 items-center justify-center gap-4">
+        <input type="text" placeholder="検索" v-model="hanzi" class="px-4 py-2 focus:border-blue-500 rounded">
         <button type="button" @click="startSearch"
           class="text-white bg-blue-500 rounded px-4 py-2 hover:bg-white hover:text-black duration-300">Search</button>
       </div>
@@ -49,15 +49,17 @@ async function startSearch() {
 
     <!-- results -->
     <section>
-      <div class="relative flex py-5 items-center">
+      <!-- results line -->
+      <div class="relative flex py-1 sm:py-5 items-center">
         <div class="flex-grow border-t border-gray-400"></div>
         <span class="flex-shrink mx-4 text-gray-400">Results: {{ results.length }}</span>
         <div class="flex-grow border-t border-gray-400"></div>
       </div>
-      <div v-if="results.length > 0" class="flex flex-row flex-wrap gap-1 px-2 py-4 justify-center">
-        <div v-for="item of results" class="w-1/6 flex flex-col p-1 bg-white items-center">
-          <img :src="item.thumbnail_url" alt="" loading="lazy" class="w-5/6">
-          <div class="flex flex-col text-xs">
+      <!-- results cards -->
+      <div v-if="results.length > 0" class="flex flex-row flex-wrap p-1 m-0 sm:px-2 sm:py-4 justify-center">
+        <div v-for="item of results" class="w-1/3 sm:w-1/6 md:w-1/12 flex flex-col sm:p-1 bg-white border">
+          <img :src="item.thumbnail_url" alt="" loading="lazy" class="sm:w-5/6 items-center justify-start border">
+          <div class="hidden flex flex-col text-xs justify-end items-start">
             <div>
               division: {{ item.source.division }}
             </div>
@@ -76,8 +78,8 @@ async function startSearch() {
     </section>
 
     <!-- footer -->
-    <footer class="bg-blue-600 text-white flex items-center justify-center px-6 m-6">
-      <div>Copyright 2022 Guanwei Liu</div>
+    <footer class="bg-gradient-to-r from-cyan-500 to-blue-500 text-white flex items-center justify-center">
+      <div class="p-4">Copyright 2022 Guanwei Liu</div>
     </footer>
   </div>
 </template>
