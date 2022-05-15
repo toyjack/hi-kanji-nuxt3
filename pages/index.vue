@@ -1,9 +1,4 @@
 <script setup lang="ts">
-// https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/character/%E5%A4%A9?delegate=0
-// const { data } = await useAsyncData('count', () => 
-//   $fetch('https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/character/%E5%A4%A9?delegate=0')
-// )
-
 const hanzi = ref<string>('天')
 let delegate = 0
 let position = 1
@@ -28,6 +23,7 @@ async function startSearch() {
   await search()
 }
 </script>
+
 <template>
   <div class="bg-gray-100">
     <!-- header -->
@@ -55,21 +51,9 @@ async function startSearch() {
       <!-- results cards -->
       <div v-if="results.length > 0" class="flex flex-row flex-wrap p-1 m-0 sm:px-2 sm:py-4 justify-center">
         <div v-for="item of results" class="w-1/3 sm:w-1/6 lg:w-1/12 flex flex-col sm:p-1 bg-white border">
-          <img :src="item.thumbnail_url" alt="" loading="lazy" class="sm:w-5/6 items-center justify-start border">
-          <div class="hidden flex flex-col text-xs justify-end items-start">
-            <div>
-              division: {{ item.source.division }}
-            </div>
-            <div>
-              value: {{ item.source.value }}
-            </div>
-            <div>
-              call_number: {{ item.source.call_number }}
-            </div>
-            <div>
-              Manifest: <a :href="item.manifest_url" class="text-blue-500">LINK</a>
-            </div>
-          </div>
+          <a :href="'/glyph/'+item.id">
+            <img :src="item.thumbnail_url" alt="" loading="lazy" class="sm:w-5/6 items-center justify-start">
+          </a>
         </div>
       </div>
     </section>
