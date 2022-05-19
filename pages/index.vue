@@ -4,7 +4,6 @@ let delegate = 0
 let position = 1
 const results = ref<string[]>([])
 async function search() {
-  console.log(hanzi.value)
   const { data } = await useFetch(`https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/character/${hanzi.value}?delegate=${delegate}&position=${position}`)
   const resultList = data.value.list
   const resultNum = data.value.search_results as number
@@ -27,9 +26,7 @@ async function startSearch() {
 <template>
   <div class="bg-gray-100">
     <!-- header -->
-    <section class="bg-gradient-to-r from-cyan-500 to-blue-500 p-20">
-      <h3 class="text-left text-3xl font-serif text-white  flex-1 uppercase">hi kanji search page</h3>
-    </section>
+    <TheHeader />
 
     <!-- form -->
     <section>
@@ -41,27 +38,8 @@ async function startSearch() {
     </section>
 
     <!-- results -->
-    <section>
-      <!-- results line -->
-      <div class="relative flex py-1 sm:py-5 items-center">
-        <div class="flex-grow border-t border-gray-400"></div>
-        <span class="flex-shrink mx-4 text-gray-400">Results: {{ results.length }}</span>
-        <div class="flex-grow border-t border-gray-400"></div>
-      </div>
-      <!-- results cards -->
-      <div v-if="results.length > 0" class="flex flex-row flex-wrap p-1 m-0 sm:px-2 sm:py-4 justify-center">
-        <div v-for="item of results" class="w-1/3 sm:w-1/6 lg:w-1/12 flex flex-col sm:p-1 bg-white border">
-          <a :href="'/glyph/'+item.id">
-            <img :src="item.thumbnail_url" alt="" loading="lazy" class="sm:w-5/6 items-center justify-start">
-          </a>
-        </div>
-      </div>
-    </section>
+    <Results :results="results" v-if="results.length > 0" />
 
-    <!-- footer -->
-    <footer class="bg-gradient-to-r from-cyan-500 to-blue-500 text-white flex flex-col items-center justify-center">
-      <div class="pt-4">All images from <a href="https://www.hi.u-tokyo.ac.jp/en/" target="blank" class="underline">The Historiographical Institute of the University of Tokyo</a></div>
-      <div class="p-4">Copyright 2022 <a href="https://researchmap.jp/liuguanwei" target="blank" class="underline">Guanwei Liu</a></div>
-    </footer>
+    <Footer />
   </div>
 </template>
