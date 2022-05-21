@@ -32,7 +32,7 @@ const filterdResults = computed(() => {
 
 const divisions = [...new Set(props.results.map(r => r.source.division))]
 const documents = [...new Set(props.results.map(r => r.source.document))]
-const books =  [...new Set(props.results.map(r => r.source.book))]
+const books =  [...new Set(props.results.map(r => r.source.value))]
 const occupations = [...new Set(props.results.map(r => r.source.occupation))]
 const sends = [...new Set(props.results.map(r => r.source.send))]
 
@@ -49,70 +49,12 @@ watch(selected, (newSelected, old) => {
 </script>
 <template>
   <section>
-    <div class="flex flex-row justify-center gap-1">
-
-      <label class="text-gray-700" for="division">
-        Divisions
-        <select id="division"
-          class="block w-52 py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
-          v-model="selected.division" name="division">
-          <option value="all">All</option>
-          <option v-for="item in divisions" :value="item">
-            {{ item }}
-          </option>
-        </select>
-      </label>
-
-      <label class="text-gray-700" for="book">
-        Books
-        <select id="book"
-          class="block w-52 py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
-          v-model="selected.book" name="book">
-          <option value="all">All</option>
-          <option v-for="item in books" :value="item">
-            {{ item }}
-          </option>
-        </select>
-      </label>
-
-      <label class="text-gray-700" for="document">
-        Documents
-        <select id="document"
-          class="block w-52 py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
-          v-model="selected.document" name="document">
-          <option value="all">All</option>
-          <option v-for="item in documents" :value="item">
-            {{ item }}
-          </option>
-        </select>
-      </label>
-
-      <label class="text-gray-700" for="send">
-        Sends
-        <select id="send"
-          class="block w-52 py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
-          v-model="selected.send" name="send">
-          <option value="all">All</option>
-          <option v-for="item in sends" :value="item">
-            {{ item }}
-          </option>
-        </select>
-      </label>
-
-      <label class="text-gray-700" for="occupation">
-        Occupations
-        <select id="occupation"
-          class="block w-52 py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500"
-          v-model="selected.occupation" name="occupation">
-          <option value="all">All</option>
-          <option v-for="item in occupations" :value="item">
-            {{ item }}
-          </option>
-        </select>
-      </label>
-
-
-
+    <div class="flex flex-col md:flex-row justify-center gap-1">
+      <Select label="Division" :list="divisions" v-model:selected="selected.division" />
+      <Select label="Document" :list="documents" v-model:selected="selected.document" />
+      <Select label="Book" :list="books" v-model:selected="selected.book" />
+      <Select label="Occupation" :list="occupations" v-model:selected="selected.occupation" />
+      <Select label="Sends" :list="sends" v-model:selected="selected.send" />
     </div>
 
 
