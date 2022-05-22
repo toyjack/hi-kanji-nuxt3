@@ -25,21 +25,16 @@ async function startSearch() {
 
 <template>
   <div class="bg-gray-100">
-    <!-- header -->
-    <TheHeader />
-
     <!-- form -->
     <section>
-      <div class="flex flex-row sm:flex-row p-1 sm:py-10 sm:px-20 items-center justify-center gap-4">
-        <input type="text" placeholder="検索" v-model="hanzi" class="px-4 py-2 focus:border-blue-500 rounded">
+      <div class="flex flex-row  p-1 md:py-10 md:px-20 items-center justify-center gap-1 md:gap-4">
+        <input type="text" placeholder="検索" v-model="hanzi" class="w-96 px-4 py-2 focus:border-blue-500 rounded">
         <button type="button" @click="startSearch"
-          class="text-white bg-blue-500 rounded px-4 py-2 hover:bg-white hover:text-black duration-300">Search</button>
+          class="w-32 text-white bg-blue-500 rounded px-4 py-2 hover:bg-white hover:text-black duration-300">Search</button>
       </div>
     </section>
 
     <!-- results -->
     <Results :results="results" v-if="results.length > 0" />
-
-    <Footer />
   </div>
 </template>
