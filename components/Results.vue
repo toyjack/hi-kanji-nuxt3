@@ -73,7 +73,6 @@ watch(selected, (newSelected, old) => {
             <img :src="item.thumbnail_url" alt="" loading="lazy"
               class=" object-cover sm:w-5/6 items-center justify-start">
             <div class="absolute">
-              <!-- <h4 class="mb-3 text-xl font-semibold tracking-tight text-white">This is the title</h4> -->
               <p class="leading-normal text-white bg-gray-800 opacity-20"> {{ item.id }} </p>
             </div>
           </div>

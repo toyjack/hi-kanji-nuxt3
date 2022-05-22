@@ -7,7 +7,9 @@ let position = 1
 const inputCharacter = ref<string>(character)
 const results = ref<string[]>([])
 
-await search()
+if (character) {
+  await search()
+}
 
 async function search() {
   const { data } = await useFetch(`https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/character/${character}?delegate=${delegate}&position=${position}`)
@@ -31,18 +33,18 @@ function move() {
 }
 
 definePageMeta({
-  title: "aa",  
+  title: "aa",
   keepalive: true
 })
 </script>
 
 <template>
-  <section>
+  <div class="">
     <div class="flex flex-row  p-1 md:py-10 md:px-20 items-center justify-center gap-1 md:gap-4">
       <input type="text" placeholder="検索" v-model="inputCharacter" class="w-96 px-4 py-2 focus:border-blue-500 rounded">
       <button type="button" @click="move"
         class="w-32 text-white bg-blue-500 rounded px-4 py-2 hover:bg-white hover:text-black duration-300">Search</button>
     </div>
-      <Results :results="results" v-if="results.length > 0" />
-  </section>
+    <Results :results="results" v-if="results.length > 0" />
+  </div>
 </template>

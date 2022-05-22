@@ -1,40 +1,39 @@
 <script setup lang="ts">
-const hanzi = ref<string>('天')
-let delegate = 0
-let position = 1
-const results = ref<string[]>([])
-async function search() {
-  const { data } = await useFetch(`https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/character/${hanzi.value}?delegate=${delegate}&position=${position}`)
-  const resultList = data.value.list
-  const resultNum = data.value.search_results as number
+const hanzi = ref<string>("天")
 
-  results.value.push(...resultList)
-  if (resultNum < 100) {
-    position = 1
-  } else {
-    position += 100
-    search()
-  }
-}
-
-async function startSearch() {
-  results.value = []
-  await search()
+function move() {
+  return navigateTo({
+    path: `/search/${hanzi.value}`,
+  })
 }
 </script>
 
 <template>
-  <div class="bg-gray-100">
-    <!-- form -->
-    <section>
-      <div class="flex flex-row  p-1 md:py-10 md:px-20 items-center justify-center gap-1 md:gap-4">
-        <input type="text" placeholder="検索" v-model="hanzi" class="w-96 px-4 py-2 focus:border-blue-500 rounded">
-        <button type="button" @click="startSearch"
-          class="w-32 text-white bg-blue-500 rounded px-4 py-2 hover:bg-white hover:text-black duration-300">Search</button>
-      </div>
-    </section>
+  <div
+    class="overflow-hidden h-full w-screen bg-cover bg-origin-border bg-no-repeat bg-center bg-fixed items-center"
+    style="background-image: url(https://clioimg.hi.u-tokyo.ac.jp/viewer/image/idata/000/0073/10/8/00000005.jpg);">
 
-    <!-- results -->
-    <Results :results="results" v-if="results.length > 0" />
+    <!-- <div class="p-8"></div> -->
+    <div class="flex flex-col items-center justify-between h-full">
+      <div class="py-4">
+        <p
+          class="font-extrabold text-3xl text-center md:text-6xl text-transparent  bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-400">
+          Search all characters
+        </p>
+      </div>
+
+      <div class="flex flex-row mb-auto pt-4 gap-2">
+        <input type="text" v-model="hanzi" class="focus:border-blue-500 rounded">
+        <button @click="move"
+          class="p-2 mb-auto text-white bg-blue-500 rounded px-4 py-2 hover:bg-white hover:text-black duration-300">Search</button>
+      </div>
+
+      <div class="pt-2 self-end items-end bg-black opacity-20">
+        <p class="text-white underline "><a
+            href="https://clioimg.hi.u-tokyo.ac.jp/viewer/image/idata/000/0073/10/8/00000005.jpg" target="blank">Background Image:
+            愚昧記 三条実房(自筆) S0073-10</a></p>
+      </div>
+    </div>
   </div>
+
 </template>
