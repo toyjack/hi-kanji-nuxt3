@@ -1,25 +1,32 @@
 <script setup lang="ts">
+definePageMeta({
+  title: "aa",
+  keepalive: true
+})
 const route = useRoute()
 const character = route.params.character as string
 let delegate = 0
 let position = 1
+const isPending = ref(false)
 
 const inputCharacter = ref<string>(character)
 const results = ref<string[]>([])
 
 if (character) {
+  isPending.value = true
   await search()
 }
 
 async function search() {
-  const { data } = await useFetch(`https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/character/${character}?delegate=${delegate}&position=${position}`)
-  console.log(data)
-  const resultList = data.value.list
-  const resultNum = data.value.search_results as number
-
+  const fetchUrl = `https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/character/${character}?delegate=${delegate}&position=${position}`
+  const { data: tempResult, pending } = await useFetch(fetchUrl)
+  const resultList = tempResult.value.list as string[]
+  const resultNum = tempResult.value.search_results as number
   results.value.push(...resultList)
+  
   if (resultNum < 100) {
     position = 1
+    isPending.value = false
   } else {
     position += 100
     search()
@@ -31,11 +38,6 @@ function move() {
     path: `/search/${inputCharacter.value}`,
   })
 }
-
-definePageMeta({
-  title: "aa",
-  keepalive: true
-})
 </script>
 
 <template>
@@ -46,7 +48,7 @@ definePageMeta({
       <button type="button" @click="move"
         class="w-1/3 md:w-1/12 text-white bg-blue-500 rounded px-4 py-2 hover:bg-white hover:text-black duration-300">Search</button>
     </div>
-    
+
     <!-- Results -->
     <Results :results="results" v-if="results.length > 0" />
   </div>
