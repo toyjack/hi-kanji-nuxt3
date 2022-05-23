@@ -7,7 +7,9 @@
 
     <header class="px-2 py-1 md:p-20 bg-gradient-to-r from-cyan-500 to-blue-500">
       <h6 class="text-sm md:text-xl text-white">The Historiographical Institute of the University of Tokyo</h6>
-      <h3 class="text-left text-xl md:text-3xl font-serif text-white  uppercase">Historical Characters Database</h3>
+      <h3 class="text-left text-xl md:text-3xl font-serif text-white  uppercase">
+        <NuxtLink to="/" class="hover:underline">Historical Characters Database</NuxtLink>
+      </h3>
     </header>
 
     <main class="flex-grow">
