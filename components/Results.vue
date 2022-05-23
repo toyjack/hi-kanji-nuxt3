@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {  computed, reactive, watch, watchEffect } from 'vue'
+import { computed, reactive, watch, watchEffect } from 'vue'
 
 interface Ifilter {
   division?: string,
@@ -18,6 +18,7 @@ const selected = <Ifilter>reactive({
   send: 'all'
 })
 
+const ifShowFilter = ref('false')
 const filter = <Ifilter>reactive({})
 
 const filterdResults = computed(() => {
@@ -32,7 +33,7 @@ const filterdResults = computed(() => {
 
 const divisions = [...new Set(props.results.map(r => r.source.division))]
 const documents = [...new Set(props.results.map(r => r.source.document))]
-const books =  [...new Set(props.results.map(r => r.source.value))]
+const books = [...new Set(props.results.map(r => r.source.value))]
 const occupations = [...new Set(props.results.map(r => r.source.occupation))]
 const sends = [...new Set(props.results.map(r => r.source.send))]
 
@@ -48,8 +49,22 @@ watch(selected, (newSelected, old) => {
 
 </script>
 <template>
-  <section>
-    <div class="flex flex-col md:flex-row justify-center gap-1">
+  <section class="container mx-auto flex flex-col">
+    <div class="self-end items-end p-1 md:hidden">
+      <div class="relative inline-block w-10 mr-2 align-middle select-none">
+        <input type="checkbox" name="toggle" id="toggle"
+          v-model="ifShowFilter" true-value="true" false-value="false"
+          class="checked:bg-blue-500 outline-none focus:outline-none right-4 checked:right-0 duration-200 ease-in absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer" />
+        <label for="toggle" class="block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer">
+        </label>
+      </div>
+      <span class="text-gray-400 font-medium">
+        Filter
+      </span>
+    </div>
+    <div 
+    :class="{ hidden: ifShowFilter==='false' }"
+    class="md:flex flex-col md:flex-row justify-center gap-1">
       <Select label="Division" :list="divisions" v-model:selected="selected.division" />
       <Select label="Document" :list="documents" v-model:selected="selected.document" />
       <Select label="Book" :list="books" v-model:selected="selected.book" />
@@ -57,26 +72,20 @@ watch(selected, (newSelected, old) => {
       <Select label="Sends" :list="sends" v-model:selected="selected.send" />
     </div>
 
-
     <!-- results line -->
     <div class="relative flex py-1 sm:py-5 items-center">
       <div class="flex-grow border-t border-gray-400"></div>
-      <span class="flex-shrink mx-4 text-gray-400">Results: {{ filterdResults.length }}</span>
+      <span class="flex-shrink mx-4 text-gray-400">Glyphs: {{ filterdResults.length }}</span>
       <div class="flex-grow border-t border-gray-400"></div>
     </div>
-    <!-- results cards -->
-    <div v-if="filterdResults.length > 0" class="flex flex-row flex-wrap p-1 m-0 sm:px-2 sm:py-4 justify-center">
-      <div v-for="item of filterdResults"
-        class="overflow-hidden rounded-sm shadow-lg w-1/3 sm:w-1/6 lg:w-1/12 flex flex-col sm:p-1 bg-white border">
-        <a :href="'/glyph/' + item.id">
-          <div class="relative  cursor-pointer">
-            <img :src="item.thumbnail_url" alt="" loading="lazy"
-              class=" object-cover sm:w-5/6 items-center justify-start">
-            <div class="absolute">
-              <p class="leading-normal text-white bg-gray-800 opacity-20"> {{ item.id }} </p>
-            </div>
-          </div>
 
+    <!-- results cards -->
+    <div v-if="filterdResults.length > 0" class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12">
+      <div v-for="item of filterdResults"
+        class="rounded-sm shadow-lg  flex flex-col sm:p-1 bg-white border hover:border-blue-300 hover:border-2">
+        <a :href="'/glyph/' + item.id" class="cursor-pointer flex flex-col h-full justify-between" target="blank">
+          <img :src="item.thumbnail_url" alt="" loading="lazy" class="w-full items-center justify-start">
+          <p class="leading-normal text-gray-100 text-center bg-blue-500 opacity-30"> {{ item.id }} </p>
         </a>
       </div>
     </div>

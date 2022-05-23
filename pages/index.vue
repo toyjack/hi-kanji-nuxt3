@@ -23,13 +23,13 @@ function move() {
       </div>
 
       <div class="flex flex-row mb-auto pt-4 gap-2">
-        <input type="text" v-model="hanzi" class="focus:border-blue-500 rounded">
+        <input type="text" v-model="hanzi" class="border-transparent appearance-none border border-gray-300 py-2 px-4 w-2/3 md:w-3/5 bg-white rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500">
         <button @click="move"
           class="p-2 mb-auto text-white bg-blue-500 rounded px-4 py-2 hover:bg-white hover:text-black duration-300">Search</button>
       </div>
 
-      <div class="pt-2 self-end items-end bg-black opacity-20">
-        <p class="text-white underline "><a
+      <div class="px-1 md:p-2 self-end items-end bg-black opacity-20 rounded ">
+        <p class="text-sm md:text-base text-white underline "><a
             href="https://clioimg.hi.u-tokyo.ac.jp/viewer/image/idata/000/0073/10/8/00000005.jpg" target="blank">Background Image:
             愚昧記 三条実房(自筆) S0073-10</a></p>
       </div>
