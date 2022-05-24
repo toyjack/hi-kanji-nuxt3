@@ -20,7 +20,7 @@ if (character) {
 async function search() {
   const fetchUrl = `https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/character/${character}?delegate=${delegate}&position=${position}`
   const { data: tempResult, pending } = await useFetch(fetchUrl)
-  const resultList = tempResult.value.list as string[]
+  const resultList = tempResult.value.list
   const resultNum = tempResult.value.search_results as number
   results.value.push(...resultList)
   

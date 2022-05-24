@@ -16,10 +16,13 @@ function hexStr2dec(hexStr: string) {
 function code2char(code: number) {
   return String.fromCodePoint(code)
 }
+
+const { $hello } = useNuxtApp()
 </script>
 
 <template>
   <section class="container mx-auto flex flex-col" v-if="!pending">
+  <!-- {{ $hello() }} -->
     <div class="flex flex-col">
       <div class="flex flex-row flex-wrap">
         <img class="w-5/6 md:w-1/4" :src="displayData.data[0].thumbnail_url" alt="">
@@ -27,9 +30,10 @@ function code2char(code: number) {
           <h2 class="text-xl font-bold">ID: {{ displayData.data[0].id }}</h2>
           <h2 class="text-xl font-bold">Character: {{ displayData.data[0].title }}</h2>
           <h2 class="text-xl font-bold">
+            Unicode:
             <a class="underline hover:text-blue-500" :href="unihanBaseUrl + code2char(hexStr2dec(displayData.data[0].unicode))"
               target="blank">
-              Unicode: U+{{ displayData.data[0].unicode }}
+               U+{{ displayData.data[0].unicode }}
             </a>
           </h2>
           <h2 class="text-xl font-bold">Daikanwa Code: {{ displayData.data[0].daikanwa_code }}</h2>
