@@ -2,7 +2,7 @@
 import { storeToRefs } from 'pinia'
 import { useGlyphStore } from '@/stores/glyphs'
 const glyphStore = useGlyphStore()
-const { occupations, divisions, dates,ceDates, glyphs } = storeToRefs(glyphStore)
+const { occupations, divisions, dates, ceDates, glyphs } = storeToRefs(glyphStore)
 
 interface Ifilter {
   division?: string,
@@ -23,9 +23,6 @@ const selected = <Ifilter>reactive({
   date: 'all',
   ce_date: 'all',
 })
-
-const props = defineProps(['results'])
-
 
 const ifShowFilter = ref('false')
 const filter = <Ifilter>reactive({})
@@ -73,13 +70,12 @@ watch(selected, (newSelected, old) => {
     <div :class="{ hidden: ifShowFilter === 'false' }" class="md:flex flex-col md:flex-row justify-center gap-1">
       <Select label="Division" :list="divisions" v-model:selected="selected.division" />
       <Select label="Occupation" :list="occupations" v-model:selected="selected.occupation" />
-      <Select label="Date" :list="dates" v-model:selected="selected.date"/>
-      <Select label="Date" :list="ceDates" v-model:selected="selected.ce_date"/>
+      <Select label="Date" :list="dates" v-model:selected="selected.date" />
+      <Select label="Date" :list="ceDates" v-model:selected="selected.ce_date" />
       <!-- <Select label="Document" :list="documents" v-model:selected="selected.document" /> -->
       <!-- <Select label="Book" :list="books" v-model:selected="selected.book" /> -->
       <!-- <Select label="Sends" :list="sends" v-model:selected="selected.send" /> -->
     </div>
-
 
     <!-- results line -->
     <div class="relative flex py-1 sm:py-5 items-center">
@@ -87,8 +83,6 @@ watch(selected, (newSelected, old) => {
       <span class="flex-shrink mx-4 text-gray-400">Glyphs: {{ filterdResults.length }}</span>
       <div class="flex-grow border-t border-gray-400"></div>
     </div>
-
-
 
     <!-- results cards -->
     <div v-if="results.length > 0" class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12">

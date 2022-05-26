@@ -5,7 +5,7 @@ const id = route.params.id
 const baseUrl = "https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/controlnumber/"
 
 const fetchUrl = baseUrl + id
-const { data:displayData, pending } = await useFetch(fetchUrl)
+const { data: displayData, pending } = await useFetch(fetchUrl)
 
 const unihanBaseUrl = "https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint="
 
@@ -15,6 +15,15 @@ function hexStr2dec(hexStr: string) {
 
 function code2char(code: number) {
   return String.fromCodePoint(code)
+}
+
+
+function getClioimgUrl(call_number, page, id) {
+  call_number = call_number.replace('@ja', '')
+  let callNum1, callNum2, callNum3
+  [callNum1, callNum2, callNum3] = call_number.split('-')
+  callNum1=callNum1.replace("貴", "_000ki_")
+  return `https://clioimg.hi.u-tokyo.ac.jp/viewer/view/idata/000/${callNum1}/${callNum2}/${callNum3}/${page}?ci=1&kts=2&dts=34&mts=${id}`
 }
 
 // https://clioimg.hi.u-tokyo.ac.jp/viewer/view/idata/000/0671/18/1/00000003?ci=1&kts=2&dts=34&mts=34019695
@@ -54,9 +63,9 @@ function code2char(code: number) {
           <h2 class="text-xl font-bold">Character: {{ displayData.data[0].title }}</h2>
           <h2 class="text-xl font-bold">
             Unicode:
-            <a class="underline hover:text-blue-500" :href="unihanBaseUrl + code2char(hexStr2dec(displayData.data[0].unicode))"
-              target="blank">
-               U+{{ displayData.data[0].unicode }}
+            <a class="underline hover:text-blue-500"
+              :href="unihanBaseUrl + code2char(hexStr2dec(displayData.data[0].unicode))" target="blank">
+              U+{{ displayData.data[0].unicode }}
             </a>
           </h2>
           <h2 class="text-xl font-bold">Daikanwa Code: {{ displayData.data[0].daikanwa_code }}</h2>
@@ -79,9 +88,21 @@ function code2char(code: number) {
         <h2 class="">occupation: {{ displayData.data[0].source.occupation }}</h2>
       </div>
 
+      <div class="flex flex-col p-1 border-2 border-blue-500 rounded">
+        <h1 class="text-xl font-bold">CLIOIMG URL:</h1>
+        <h2>
+          <a class="underline hover:text-blue-500" target="blank"
+            :href="getClioimgUrl(displayData.data[0].source.call_number, displayData.data[0].source.page, displayData.data[0].id)">
+            {{ getClioimgUrl(displayData.data[0].source.call_number, displayData.data[0].source.page,
+                displayData.data[0].id)
+            }}
+          </a>
+        </h2>
+      </div>
+
       <div class="flex flex-col p-2 border-2 rounded border-blue-500">
-        <h3>TODO: IIIF Viewer</h3>
-        <p>iiif manifest: {{ displayData.data[0].manifest_url }} </p>
+        <h3 class="text-xl font-bold">TODO: IIIF Viewer</h3>
+        <p>iiif manifest: <a :href="displayData.data[0].manifest_url" target="blank" class="underline hover:text-blue-500">{{ displayData.data[0].manifest_url }}</a> </p>
       </div>
     </div>
   </section>

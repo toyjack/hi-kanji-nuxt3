@@ -2,7 +2,7 @@
 import { storeToRefs } from 'pinia'
 import { useGlyphStore } from '@/stores/glyphs'
 const glyphStore = useGlyphStore()
-const {glyphs} = storeToRefs(glyphStore)
+const { glyphs } = storeToRefs(glyphStore)
 
 glyphStore.clear()
 
@@ -27,8 +27,8 @@ async function search() {
   const resultList = tempResult.value.list
   const resultNum = tempResult.value.search_results as number
   // results.value.push(...resultList)
-  resultList.forEach(item=>glyphStore.addGlyph(item))
-  
+  resultList.forEach(item => glyphStore.addGlyph(item))
+
   if (resultNum < 100) {
     position = 1
     isPending.value = false
@@ -44,11 +44,6 @@ function move() {
   })
 }
 
-// definePageMeta({
-//   title: "aa",
-//   keepalive: true
-// })
-
 </script>
 
 <template>
@@ -61,6 +56,6 @@ function move() {
     </div>
 
     <!-- Results -->
-    <Results :results="glyphs" v-if="glyphs" />
+    <Results v-if="glyphs" />
   </div>
 </template>
