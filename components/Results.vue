@@ -6,7 +6,8 @@ interface Ifilter {
   document?: string,
   book?: string,
   occupation?: string,
-  send?: string
+  send?: string,
+  date?: string,
 }
 
 const props = defineProps(['results'])
@@ -15,7 +16,8 @@ const selected = <Ifilter>reactive({
   document: 'all',
   book: 'all',
   occupation: 'all',
-  send: 'all'
+  send: 'all',
+  date: 'all',
 })
 
 const ifShowFilter = ref('false')
@@ -36,6 +38,7 @@ const documents = [...new Set(props.results.map(r => r.source.document))]
 const books = [...new Set(props.results.map(r => r.source.value))]
 const occupations = [...new Set(props.results.map(r => r.source.occupation))]
 const sends = [...new Set(props.results.map(r => r.source.send))]
+const dates = [...new Set(props.results.map(r => r.source.date))]
 
 watch(selected, (newSelected, old) => {
   for (var key in selected) {
@@ -70,6 +73,7 @@ watch(selected, (newSelected, old) => {
       <Select label="Book" :list="books" v-model:selected="selected.book" />
       <Select label="Occupation" :list="occupations" v-model:selected="selected.occupation" />
       <Select label="Sends" :list="sends" v-model:selected="selected.send" />
+      <Select label="Date" :list="dates" v-model:selected="selected.date" />
     </div>
 
     <!-- results line -->

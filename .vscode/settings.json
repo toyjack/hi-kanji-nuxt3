@@ -1,0 +1,18 @@
+{
+  "i18n-ally.dirStructure": "auto",
+  "i18n-ally.enabledParsers": ["js", "ts"],
+
+  "i18n-ally.keystyle": "auto",
+  "i18n-ally.pathMatcher": "{locale}.ts",
+  "i18n-ally.localesPaths": [
+    "i18n"
+  ],
+  "i18n-ally.extract.ignored": [
+    "Copyright 2022 "
+  ],
+  "i18n-ally.extract.ignoredByFiles": {
+    "layouts\\default.vue": [
+      "Copyright 2022 "
+    ]
+  },
+}
