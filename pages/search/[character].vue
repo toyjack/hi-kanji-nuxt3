@@ -1,8 +1,11 @@
 <script setup lang="ts">
-definePageMeta({
-  title: "aa",
-  keepalive: true
-})
+import { storeToRefs } from 'pinia'
+import { useGlyphStore } from '@/stores/glyphs'
+const glyphStore = useGlyphStore()
+const {glyphs} = storeToRefs(glyphStore)
+
+glyphStore.clear()
+
 const route = useRoute()
 const character = route.params.character as string
 let delegate = 0
@@ -19,10 +22,12 @@ if (character) {
 
 async function search() {
   const fetchUrl = `https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/character/${character}?delegate=${delegate}&position=${position}`
-  const { data: tempResult, pending } = await useFetch(fetchUrl)
+  const { data: tempResult } = await useFetch(fetchUrl)
+
   const resultList = tempResult.value.list
   const resultNum = tempResult.value.search_results as number
-  results.value.push(...resultList)
+  // results.value.push(...resultList)
+  resultList.forEach(item=>glyphStore.addGlyph(item))
   
   if (resultNum < 100) {
     position = 1
@@ -38,6 +43,12 @@ function move() {
     path: `/search/${inputCharacter.value}`,
   })
 }
+
+// definePageMeta({
+//   title: "aa",
+//   keepalive: true
+// })
+
 </script>
 
 <template>
@@ -50,6 +61,6 @@ function move() {
     </div>
 
     <!-- Results -->
-    <Results :results="results" v-if="results.length > 0" />
+    <Results :results="glyphs" v-if="glyphs" />
   </div>
 </template>

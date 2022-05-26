@@ -17,16 +17,39 @@ function code2char(code: number) {
   return String.fromCodePoint(code)
 }
 
-const { $hello } = useNuxtApp()
+// https://clioimg.hi.u-tokyo.ac.jp/viewer/view/idata/000/0671/18/1/00000003?ci=1&kts=2&dts=34&mts=34019695
+// ci: side panel
+// kts, dts: ?
+// mts: kuzushiji ID
+
+// async function convYear(date: string) {
+//   // http://ap.hutime.org/cal/?method=conv&ical=1001.1&ocal=101.1&otype=year&ival=元弘3年11月9日@ja
+//   const huBaseUrl = "http://ap.hutime.org/cal/?method=conv&ical=1001.1&ocal=101.1&otype=year&ival="
+//   const fetchUrl = huBaseUrl + date
+//   // console.log(fetchUrl)
+//   // return ""
+//   const { data: huresult} = await useFetch(fetchUrl)
+//   return huresult.value
+// }
+
+// TODO https://clioimg.hi.u-tokyo.ac.jp/viewer/list/idata/000/0071/16/1/?m=limit
+// TODO iiif viewer
+
+// TODO
+// 新検索システムへ
+// https://wwwap.hi.u-tokyo.ac.jp/ships/neo/w34/detail/34084126?dispid=disp02
+// 原本へ
+// https://clioimg.hi.u-tokyo.ac.jp/viewer/view/idata/000/0071/16/4/00000015?ci=1&kts=2&dts=34&mts=34084126
+
+// copyright
 </script>
 
 <template>
   <section class="container mx-auto flex flex-col" v-if="!pending">
-  <!-- {{ $hello() }} -->
-    <div class="flex flex-col">
-      <div class="flex flex-row flex-wrap">
-        <img class="w-5/6 md:w-1/4" :src="displayData.data[0].thumbnail_url" alt="">
-        <div class="flex flex-col">
+    <div class="flex flex-col gap-2">
+      <div class="flex flex-row flex-wrap gap-2">
+        <img class="w-5/6 md:w-1/4 border-2" :src="displayData.data[0].thumbnail_url" alt="">
+        <div class="flex flex-col justify-center">
           <h2 class="text-xl font-bold">ID: {{ displayData.data[0].id }}</h2>
           <h2 class="text-xl font-bold">Character: {{ displayData.data[0].title }}</h2>
           <h2 class="text-xl font-bold">
@@ -56,9 +79,11 @@ const { $hello } = useNuxtApp()
         <h2 class="">occupation: {{ displayData.data[0].source.occupation }}</h2>
       </div>
 
-      <div>
+      <div class="flex flex-col p-2 border-2 rounded border-blue-500">
+        <h3>TODO: IIIF Viewer</h3>
         <p>iiif manifest: {{ displayData.data[0].manifest_url }} </p>
       </div>
     </div>
   </section>
 </template>
+

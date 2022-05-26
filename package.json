@@ -8,9 +8,11 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^5.1.2",
+    "@pinia/nuxt": "^0.1.9",
     "nuxt": "3.0.0-rc.3"
   },
   "dependencies": {
+    "pinia": "^2.0.14",
     "vue-i18n": "9"
   }
 }
