@@ -85,7 +85,7 @@ watch(selected, (newSelected, old) => {
     </div>
 
     <!-- results cards -->
-    <div v-if="results.length > 0" class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12">
+    <div v-if="glyphs.length > 0" class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12">
       <div v-for="item of filterdResults"
         class="rounded-sm shadow-lg  flex flex-col sm:p-1 bg-white border hover:border-blue-300 hover:border-2">
         <a :href="'/glyph/' + item.id" class="cursor-pointer flex flex-col h-full justify-between" target="blank">
