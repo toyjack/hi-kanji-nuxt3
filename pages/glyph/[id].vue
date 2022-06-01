@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import * as UV from "universalviewer";
+import * as UV from "universalviewer/dist/esm/";
 // import 'universalviewer/dist/esm/index.css'
+// import 'universalviewer/dist/uv.css'
 import "../../assets/uv.css"
 
 // TODO: add type for fetched data
@@ -10,7 +11,7 @@ const baseUrl = "https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/controlnumber/
 
 const fetchUrl = baseUrl + id
 const { data: displayData, pending } = await useFetch(fetchUrl, { pick: ['data'] })
-const manifest_url =  displayData.value.data.flat()[0].manifest_url
+const manifest_url = displayData.value.data.flat()[0].manifest_url
 
 const unihanBaseUrl = "https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint="
 
@@ -45,14 +46,59 @@ function getClioimgUrl(call_number, page, id) {
 
 onMounted(async () => {
   const uvConfig = {
-    manifest:manifest_url,
+    manifest: manifest_url,
   };
-  UV.init("uv", uvConfig);
+  const uv = UV.init("uv", uvConfig);
+  uv.on("configure", function ({ config, cb }) {
+    cb({
+      options: {
+        footerPanelEnabled: true,
+        headerPanelEnabled: false,
+        navigatorEnabled: false,
+        rightPanelEnabled: true,
+        leftPanelEnabled: false,
+      },
+      modules: {
+        // TODO add i18n support for universalviewer
+        "footerPanel": {
+          "options": {
+            "downloadEnabled": true,
+            "embedEnabled": false,
+            // "feedbackEnabled": true,
+            "fullscreenEnabled": true,
+            // "minimiseButtons": true,
+            "moreInfoEnabled": true,
+            // "openEnabled": true,
+            "printEnabled": true,
+            "shareEnabled": true
+          },
+          "moreInfoRightPanel": {
+            "options": {
+              "canvasDisplayOrder": "",
+              "canvasExclude": "",
+              "copyToClipboardEnabled": false,
+              "manifestDisplayOrder": "",
+              "manifestExclude": "",
+              "panelAnimationDuration": 250,
+              "panelCollapsedWidth": 30,
+              "panelExpandedWidth": 255,
+              "panelOpen": true,
+              "rtlLanguageCodes": "ar, ara, dv, div, he, heb, ur, urd",
+              "showAllLanguages": false,
+              "textLimit": 4,
+              "textLimitType": "lines"
+            },
+
+          },
+        },
+      }
+    });
+  });
 })</script>
 
 <template>
   <section class="container mx-auto flex flex-col" v-if="!pending">
-    <div id="uv" class="uv h-64"></div>
+    <div id="uv" class="uv h-64 mb-10"></div>
     <div class="flex flex-col gap-2">
       <div class="flex flex-row flex-wrap gap-2">
         <!-- <img class="w-5/6 md:w-1/4 border-2" :src="displayData.data[0].thumbnail_url" alt=""> -->
@@ -100,8 +146,9 @@ onMounted(async () => {
 
       <div class="flex flex-col p-2 border-2 rounded border-blue-500">
         <h3 class="text-xl font-bold">IIIF Manifest</h3>
-        <p>URL: <a :href="displayData.data[0].manifest_url" target="blank"
-            class="underline hover:text-blue-500">{{ displayData.data[0].manifest_url }}</a> </p>
+        <p>URL: <a :href="displayData.data[0].manifest_url" target="blank" class="underline hover:text-blue-500">{{
+            displayData.data[0].manifest_url
+        }}</a> </p>
       </div>
     </div>
   </section>
