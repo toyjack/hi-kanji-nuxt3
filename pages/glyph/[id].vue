@@ -46,8 +46,6 @@ function getClioimgUrl(call_number, page, id) {
 onMounted(async () => {
   const uvConfig = {
     manifest:manifest_url,
-    // manifest: displayData.data[0].manifest_url,
-    // embedded: true, // needed for codesandbox frame
   };
   UV.init("uv", uvConfig);
 })</script>
