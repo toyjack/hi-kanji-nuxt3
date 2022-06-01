@@ -1,11 +1,16 @@
 <script setup lang="ts">
+import * as UV from "universalviewer";
+// import 'universalviewer/dist/esm/index.css'
+import "../../assets/uv.css"
+
 // TODO: add type for fetched data
 const route = useRoute()
 const id = route.params.id
 const baseUrl = "https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/controlnumber/"
 
 const fetchUrl = baseUrl + id
-const { data: displayData, pending } = await useFetch(fetchUrl)
+const { data: displayData, pending } = await useFetch(fetchUrl, { pick: ['data'] })
+const manifest_url =  displayData.value.data.flat()[0].manifest_url
 
 const unihanBaseUrl = "https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint="
 
@@ -22,14 +27,9 @@ function getClioimgUrl(call_number, page, id) {
   call_number = call_number.replace('@ja', '')
   let callNum1, callNum2, callNum3
   [callNum1, callNum2, callNum3] = call_number.split('-')
-  callNum1=callNum1.replace("貴", "_000ki_")
+  callNum1 = callNum1.replace("貴", "_000ki_")
   return `https://clioimg.hi.u-tokyo.ac.jp/viewer/view/idata/000/${callNum1}/${callNum2}/${callNum3}/${page}?ci=1&kts=2&dts=34&mts=${id}`
 }
-
-// https://clioimg.hi.u-tokyo.ac.jp/viewer/view/idata/000/0671/18/1/00000003?ci=1&kts=2&dts=34&mts=34019695
-// ci: side panel
-// kts, dts: ?
-// mts: kuzushiji ID
 
 // async function convYear(date: string) {
 //   // http://ap.hutime.org/cal/?method=conv&ical=1001.1&ocal=101.1&otype=year&ival=元弘3年11月9日@ja
@@ -41,23 +41,23 @@ function getClioimgUrl(call_number, page, id) {
 //   return huresult.value
 // }
 
-// TODO https://clioimg.hi.u-tokyo.ac.jp/viewer/list/idata/000/0071/16/1/?m=limit
-// TODO iiif viewer
+// TODO add copyright
 
-// TODO
-// 新検索システムへ
-// https://wwwap.hi.u-tokyo.ac.jp/ships/neo/w34/detail/34084126?dispid=disp02
-// 原本へ
-// https://clioimg.hi.u-tokyo.ac.jp/viewer/view/idata/000/0071/16/4/00000015?ci=1&kts=2&dts=34&mts=34084126
-
-// copyright
-</script>
+onMounted(async () => {
+  const uvConfig = {
+    manifest:manifest_url,
+    // manifest: displayData.data[0].manifest_url,
+    // embedded: true, // needed for codesandbox frame
+  };
+  UV.init("uv", uvConfig);
+})</script>
 
 <template>
   <section class="container mx-auto flex flex-col" v-if="!pending">
+    <div id="uv" class="uv h-64"></div>
     <div class="flex flex-col gap-2">
       <div class="flex flex-row flex-wrap gap-2">
-        <img class="w-5/6 md:w-1/4 border-2" :src="displayData.data[0].thumbnail_url" alt="">
+        <!-- <img class="w-5/6 md:w-1/4 border-2" :src="displayData.data[0].thumbnail_url" alt=""> -->
         <div class="flex flex-col justify-center">
           <h2 class="text-xl font-bold">ID: {{ displayData.data[0].id }}</h2>
           <h2 class="text-xl font-bold">Character: {{ displayData.data[0].title }}</h2>
@@ -101,8 +101,9 @@ function getClioimgUrl(call_number, page, id) {
       </div>
 
       <div class="flex flex-col p-2 border-2 rounded border-blue-500">
-        <h3 class="text-xl font-bold">TODO: IIIF Viewer</h3>
-        <p>iiif manifest: <a :href="displayData.data[0].manifest_url" target="blank" class="underline hover:text-blue-500">{{ displayData.data[0].manifest_url }}</a> </p>
+        <h3 class="text-xl font-bold">IIIF Manifest</h3>
+        <p>URL: <a :href="displayData.data[0].manifest_url" target="blank"
+            class="underline hover:text-blue-500">{{ displayData.data[0].manifest_url }}</a> </p>
       </div>
     </div>
   </section>
