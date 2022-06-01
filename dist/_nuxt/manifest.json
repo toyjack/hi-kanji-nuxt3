@@ -1,10 +1,10 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-cf55a5cd.mjs",
+    "file": "entry-c293202b.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
-      "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs",
+      "_IIIFContentHandler-2D2CUZM6-4294b090.mjs",
       "node_modules/universalviewer/dist/esm/YouTubeContentHandler-LVHYSGJO.js",
       "pages/glyph/[id].vue",
       "pages/index.vue",
@@ -12,11 +12,11 @@
       "layouts/default.vue"
     ],
     "css": [
-      "entry.9d77b723.css"
+      "entry.20e32d7f.css"
     ]
   },
   "pages/glyph/[id].vue": {
-    "file": "_id_-82238970.mjs",
+    "file": "_id_-7db32cfa.mjs",
     "src": "pages/glyph/[id].vue",
     "isDynamicEntry": true,
     "imports": [
@@ -24,7 +24,7 @@
     ]
   },
   "pages/index.vue": {
-    "file": "index-a5bb9228.mjs",
+    "file": "index-833b3151.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -32,7 +32,7 @@
     ]
   },
   "pages/search/[character].vue": {
-    "file": "_character_-b17ee238.mjs",
+    "file": "_character_-60ea1637.mjs",
     "src": "pages/search/[character].vue",
     "isDynamicEntry": true,
     "imports": [
@@ -40,15 +40,15 @@
     ]
   },
   "layouts/default.vue": {
-    "file": "default-128ddf0f.mjs",
+    "file": "default-78762a92.mjs",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs": {
-    "file": "IIIFContentHandler-2D2CUZM6-76bcbaed.mjs",
+  "_IIIFContentHandler-2D2CUZM6-4294b090.mjs": {
+    "file": "IIIFContentHandler-2D2CUZM6-4294b090.mjs",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
@@ -65,7 +65,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/YouTubeContentHandler-LVHYSGJO.js": {
-    "file": "YouTubeContentHandler-LVHYSGJO-8e158640.mjs",
+    "file": "YouTubeContentHandler-LVHYSGJO-c465119f.mjs",
     "src": "node_modules/universalviewer/dist/esm/YouTubeContentHandler-LVHYSGJO.js",
     "isDynamicEntry": true,
     "imports": [
@@ -73,17 +73,17 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/Extension-O5RSLTOM.js": {
-    "file": "Extension-O5RSLTOM-1a8c9ede.mjs",
+    "file": "Extension-O5RSLTOM-f61be89a.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-O5RSLTOM.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_chunk-CXIKZ7FQ-6dbcc404.mjs",
-      "_chunk-VVWTEMUP-9eb3ed02.mjs",
-      "_chunk-S4NKBMO5-6b049059.mjs",
-      "_chunk-RSUYDEOQ-61ff0f08.mjs",
-      "_chunk-P2U3GQ3L-2d793356.mjs",
-      "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs"
+      "_chunk-CXIKZ7FQ-11b2f7ce.mjs",
+      "_chunk-VVWTEMUP-e9d05752.mjs",
+      "_chunk-S4NKBMO5-3ec41df5.mjs",
+      "_chunk-RSUYDEOQ-fb229a4d.mjs",
+      "_chunk-P2U3GQ3L-e6410a9a.mjs",
+      "_IIIFContentHandler-2D2CUZM6-4294b090.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/cy-GB-OBPEZVYZ.js",
@@ -92,54 +92,54 @@
       "node_modules/universalviewer/dist/esm/sv-SE-UMBWWDO2.js"
     ]
   },
-  "_chunk-CXIKZ7FQ-6dbcc404.mjs": {
-    "file": "chunk-CXIKZ7FQ-6dbcc404.mjs",
+  "_chunk-CXIKZ7FQ-11b2f7ce.mjs": {
+    "file": "chunk-CXIKZ7FQ-11b2f7ce.mjs",
     "imports": [
-      "_chunk-VVWTEMUP-9eb3ed02.mjs",
-      "_chunk-P2U3GQ3L-2d793356.mjs",
-      "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs",
+      "_chunk-VVWTEMUP-e9d05752.mjs",
+      "_chunk-P2U3GQ3L-e6410a9a.mjs",
+      "_IIIFContentHandler-2D2CUZM6-4294b090.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_chunk-VVWTEMUP-9eb3ed02.mjs": {
-    "file": "chunk-VVWTEMUP-9eb3ed02.mjs",
+  "_chunk-VVWTEMUP-e9d05752.mjs": {
+    "file": "chunk-VVWTEMUP-e9d05752.mjs",
     "imports": [
-      "_chunk-P2U3GQ3L-2d793356.mjs",
-      "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs",
+      "_chunk-P2U3GQ3L-e6410a9a.mjs",
+      "_IIIFContentHandler-2D2CUZM6-4294b090.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_chunk-S4NKBMO5-6b049059.mjs": {
-    "file": "chunk-S4NKBMO5-6b049059.mjs",
+  "_chunk-S4NKBMO5-3ec41df5.mjs": {
+    "file": "chunk-S4NKBMO5-3ec41df5.mjs",
     "imports": [
-      "_chunk-P2U3GQ3L-2d793356.mjs"
+      "_chunk-P2U3GQ3L-e6410a9a.mjs"
     ]
   },
-  "_chunk-RSUYDEOQ-61ff0f08.mjs": {
-    "file": "chunk-RSUYDEOQ-61ff0f08.mjs",
+  "_chunk-RSUYDEOQ-fb229a4d.mjs": {
+    "file": "chunk-RSUYDEOQ-fb229a4d.mjs",
     "imports": [
-      "_chunk-P2U3GQ3L-2d793356.mjs",
-      "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs",
+      "_chunk-P2U3GQ3L-e6410a9a.mjs",
+      "_IIIFContentHandler-2D2CUZM6-4294b090.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_chunk-P2U3GQ3L-2d793356.mjs": {
-    "file": "chunk-P2U3GQ3L-2d793356.mjs",
+  "_chunk-P2U3GQ3L-e6410a9a.mjs": {
+    "file": "chunk-P2U3GQ3L-e6410a9a.mjs",
     "imports": [
-      "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs",
+      "_IIIFContentHandler-2D2CUZM6-4294b090.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "node_modules/universalviewer/dist/esm/Extension-3GA5XLPD.js": {
-    "file": "Extension-3GA5XLPD-e1745c60.mjs",
+    "file": "Extension-3GA5XLPD-c0603426.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-3GA5XLPD.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_chunk-S4NKBMO5-6b049059.mjs",
-      "_chunk-RSUYDEOQ-61ff0f08.mjs",
-      "_chunk-P2U3GQ3L-2d793356.mjs",
-      "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs"
+      "_chunk-S4NKBMO5-3ec41df5.mjs",
+      "_chunk-RSUYDEOQ-fb229a4d.mjs",
+      "_chunk-P2U3GQ3L-e6410a9a.mjs",
+      "_IIIFContentHandler-2D2CUZM6-4294b090.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/dom-W3NEFMZX.js",
@@ -150,16 +150,16 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/Extension-GQ5NTP5Q.js": {
-    "file": "Extension-GQ5NTP5Q-24ee6ed5.mjs",
+    "file": "Extension-GQ5NTP5Q-492d7a48.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-GQ5NTP5Q.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_chunk-O2ZSDYKA-d180ecd1.mjs",
-      "_chunk-IRDJNOQF-320e6f58.mjs",
-      "_chunk-VVWTEMUP-9eb3ed02.mjs",
-      "_chunk-P2U3GQ3L-2d793356.mjs",
-      "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs"
+      "_chunk-O2ZSDYKA-5afa5724.mjs",
+      "_chunk-IRDJNOQF-c2fce4bf.mjs",
+      "_chunk-VVWTEMUP-e9d05752.mjs",
+      "_chunk-P2U3GQ3L-e6410a9a.mjs",
+      "_IIIFContentHandler-2D2CUZM6-4294b090.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/cy-GB-IHBTWEE4.js",
@@ -168,32 +168,32 @@
       "node_modules/universalviewer/dist/esm/sv-SE-5KIJEH7C.js"
     ]
   },
-  "_chunk-O2ZSDYKA-d180ecd1.mjs": {
-    "file": "chunk-O2ZSDYKA-d180ecd1.mjs",
+  "_chunk-O2ZSDYKA-5afa5724.mjs": {
+    "file": "chunk-O2ZSDYKA-5afa5724.mjs",
     "imports": [
-      "_chunk-VVWTEMUP-9eb3ed02.mjs",
-      "_chunk-P2U3GQ3L-2d793356.mjs",
-      "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs",
+      "_chunk-VVWTEMUP-e9d05752.mjs",
+      "_chunk-P2U3GQ3L-e6410a9a.mjs",
+      "_IIIFContentHandler-2D2CUZM6-4294b090.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_chunk-IRDJNOQF-320e6f58.mjs": {
-    "file": "chunk-IRDJNOQF-320e6f58.mjs",
+  "_chunk-IRDJNOQF-c2fce4bf.mjs": {
+    "file": "chunk-IRDJNOQF-c2fce4bf.mjs",
     "imports": [
-      "_chunk-P2U3GQ3L-2d793356.mjs",
+      "_chunk-P2U3GQ3L-e6410a9a.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "node_modules/universalviewer/dist/esm/Extension-5QNXS2TA.js": {
-    "file": "Extension-5QNXS2TA-682c0a8f.mjs",
+    "file": "Extension-5QNXS2TA-6964032d.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-5QNXS2TA.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_chunk-6AUGIHTP-2176d952.mjs",
-      "_chunk-RSUYDEOQ-61ff0f08.mjs",
-      "_chunk-P2U3GQ3L-2d793356.mjs",
-      "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs"
+      "_chunk-6AUGIHTP-7a1cbd70.mjs",
+      "_chunk-RSUYDEOQ-fb229a4d.mjs",
+      "_chunk-P2U3GQ3L-e6410a9a.mjs",
+      "_IIIFContentHandler-2D2CUZM6-4294b090.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/dom-ITI5BMGR.js",
@@ -205,26 +205,26 @@
       "node_modules/universalviewer/dist/esm/sv-SE-PBF7APYM.js"
     ]
   },
-  "_chunk-6AUGIHTP-2176d952.mjs": {
-    "file": "chunk-6AUGIHTP-2176d952.mjs",
+  "_chunk-6AUGIHTP-7a1cbd70.mjs": {
+    "file": "chunk-6AUGIHTP-7a1cbd70.mjs",
     "imports": [
-      "_chunk-P2U3GQ3L-2d793356.mjs",
+      "_chunk-P2U3GQ3L-e6410a9a.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "node_modules/universalviewer/dist/esm/Extension-TPXWCEQK.js": {
-    "file": "Extension-TPXWCEQK-3861ee6d.mjs",
+    "file": "Extension-TPXWCEQK-6d851e0b.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-TPXWCEQK.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
       "_chunk-CHPN5XCG-6b41ee64.mjs",
-      "_chunk-O2ZSDYKA-d180ecd1.mjs",
-      "_chunk-IRDJNOQF-320e6f58.mjs",
-      "_chunk-VVWTEMUP-9eb3ed02.mjs",
-      "_chunk-RSUYDEOQ-61ff0f08.mjs",
-      "_chunk-P2U3GQ3L-2d793356.mjs",
-      "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs"
+      "_chunk-O2ZSDYKA-5afa5724.mjs",
+      "_chunk-IRDJNOQF-c2fce4bf.mjs",
+      "_chunk-VVWTEMUP-e9d05752.mjs",
+      "_chunk-RSUYDEOQ-fb229a4d.mjs",
+      "_chunk-P2U3GQ3L-e6410a9a.mjs",
+      "_IIIFContentHandler-2D2CUZM6-4294b090.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/cy-GB-MR4WLKYA.js",
@@ -237,19 +237,19 @@
     "file": "chunk-CHPN5XCG-6b41ee64.mjs"
   },
   "node_modules/universalviewer/dist/esm/Extension-V5Q6L7UF.js": {
-    "file": "Extension-V5Q6L7UF-f9014866.mjs",
+    "file": "Extension-V5Q6L7UF-a842d32d.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-V5Q6L7UF.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
       "_chunk-3UUJB7QR-b602784f.mjs",
-      "_chunk-6AUGIHTP-2176d952.mjs",
+      "_chunk-6AUGIHTP-7a1cbd70.mjs",
       "_chunk-CHPN5XCG-6b41ee64.mjs",
-      "_chunk-CXIKZ7FQ-6dbcc404.mjs",
-      "_chunk-VVWTEMUP-9eb3ed02.mjs",
-      "_chunk-RSUYDEOQ-61ff0f08.mjs",
-      "_chunk-P2U3GQ3L-2d793356.mjs",
-      "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs"
+      "_chunk-CXIKZ7FQ-11b2f7ce.mjs",
+      "_chunk-VVWTEMUP-e9d05752.mjs",
+      "_chunk-RSUYDEOQ-fb229a4d.mjs",
+      "_chunk-P2U3GQ3L-e6410a9a.mjs",
+      "_IIIFContentHandler-2D2CUZM6-4294b090.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/cy-GB-BGXBT7C3.js",
@@ -262,20 +262,20 @@
     "file": "chunk-3UUJB7QR-b602784f.mjs"
   },
   "node_modules/universalviewer/dist/esm/Extension-AK4VUJ42.js": {
-    "file": "Extension-AK4VUJ42-c26fd73e.mjs",
+    "file": "Extension-AK4VUJ42-1a7a0909.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-AK4VUJ42.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
       "_chunk-3UUJB7QR-b602784f.mjs",
-      "_chunk-6AUGIHTP-2176d952.mjs",
+      "_chunk-6AUGIHTP-7a1cbd70.mjs",
       "_chunk-CHPN5XCG-6b41ee64.mjs",
-      "_chunk-IRDJNOQF-320e6f58.mjs",
-      "_chunk-CXIKZ7FQ-6dbcc404.mjs",
-      "_chunk-VVWTEMUP-9eb3ed02.mjs",
-      "_chunk-RSUYDEOQ-61ff0f08.mjs",
-      "_chunk-P2U3GQ3L-2d793356.mjs",
-      "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs"
+      "_chunk-IRDJNOQF-c2fce4bf.mjs",
+      "_chunk-CXIKZ7FQ-11b2f7ce.mjs",
+      "_chunk-VVWTEMUP-e9d05752.mjs",
+      "_chunk-RSUYDEOQ-fb229a4d.mjs",
+      "_chunk-P2U3GQ3L-e6410a9a.mjs",
+      "_IIIFContentHandler-2D2CUZM6-4294b090.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/cy-GB-I34VTGO4.js",
@@ -285,17 +285,17 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/Extension-SQGNVUET.js": {
-    "file": "Extension-SQGNVUET-4f9ac296.mjs",
+    "file": "Extension-SQGNVUET-a0ca9226.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-SQGNVUET.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
       "_chunk-CHPN5XCG-6b41ee64.mjs",
-      "_chunk-O2ZSDYKA-d180ecd1.mjs",
-      "_chunk-VVWTEMUP-9eb3ed02.mjs",
-      "_chunk-RSUYDEOQ-61ff0f08.mjs",
-      "_chunk-P2U3GQ3L-2d793356.mjs",
-      "_IIIFContentHandler-2D2CUZM6-76bcbaed.mjs"
+      "_chunk-O2ZSDYKA-5afa5724.mjs",
+      "_chunk-VVWTEMUP-e9d05752.mjs",
+      "_chunk-RSUYDEOQ-fb229a4d.mjs",
+      "_chunk-P2U3GQ3L-e6410a9a.mjs",
+      "_IIIFContentHandler-2D2CUZM6-4294b090.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/pdfobject-RVTYN2PB.js",
@@ -307,7 +307,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/cy-GB-OBPEZVYZ.js": {
-    "file": "cy-GB-OBPEZVYZ-ef4f9ee6.mjs",
+    "file": "cy-GB-OBPEZVYZ-bb0c3f99.mjs",
     "src": "node_modules/universalviewer/dist/esm/cy-GB-OBPEZVYZ.js",
     "isDynamicEntry": true,
     "imports": [
@@ -315,7 +315,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/fr-FR-EKWXRZJ7.js": {
-    "file": "fr-FR-EKWXRZJ7-7bd3ab69.mjs",
+    "file": "fr-FR-EKWXRZJ7-afd2e581.mjs",
     "src": "node_modules/universalviewer/dist/esm/fr-FR-EKWXRZJ7.js",
     "isDynamicEntry": true,
     "imports": [
@@ -323,7 +323,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pl-PL-KQXXMOPU.js": {
-    "file": "pl-PL-KQXXMOPU-1d7c3cbc.mjs",
+    "file": "pl-PL-KQXXMOPU-eb6f4de3.mjs",
     "src": "node_modules/universalviewer/dist/esm/pl-PL-KQXXMOPU.js",
     "isDynamicEntry": true,
     "imports": [
@@ -331,7 +331,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/sv-SE-UMBWWDO2.js": {
-    "file": "sv-SE-UMBWWDO2-163493fa.mjs",
+    "file": "sv-SE-UMBWWDO2-c57a040c.mjs",
     "src": "node_modules/universalviewer/dist/esm/sv-SE-UMBWWDO2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -339,7 +339,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/dom-W3NEFMZX.js": {
-    "file": "dom-W3NEFMZX-e3dfb955.mjs",
+    "file": "dom-W3NEFMZX-c462fdd2.mjs",
     "src": "node_modules/universalviewer/dist/esm/dom-W3NEFMZX.js",
     "isDynamicEntry": true,
     "imports": [
@@ -347,7 +347,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/core-js-XAM5JUGB.js": {
-    "file": "core-js-XAM5JUGB-0808c297.mjs",
+    "file": "core-js-XAM5JUGB-facbef83.mjs",
     "src": "node_modules/universalviewer/dist/esm/core-js-XAM5JUGB.js",
     "isDynamicEntry": true,
     "imports": [
@@ -355,7 +355,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/css-shim-KQ3ZUP7Q.js": {
-    "file": "css-shim-KQ3ZUP7Q-6a4cf574.mjs",
+    "file": "css-shim-KQ3ZUP7Q-18fc3926.mjs",
     "src": "node_modules/universalviewer/dist/esm/css-shim-KQ3ZUP7Q.js",
     "isDynamicEntry": true,
     "imports": [
@@ -363,7 +363,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/css-shim-8178315f-8178315f-LTWLFCW7.js": {
-    "file": "css-shim-8178315f-8178315f-LTWLFCW7-4cc87b4a.mjs",
+    "file": "css-shim-8178315f-8178315f-LTWLFCW7-37f76c09.mjs",
     "src": "node_modules/universalviewer/dist/esm/css-shim-8178315f-8178315f-LTWLFCW7.js",
     "isDynamicEntry": true,
     "imports": [
@@ -371,7 +371,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/shadow-css-9e778f69-c68d0961-5DSHBRJ6.js": {
-    "file": "shadow-css-9e778f69-c68d0961-5DSHBRJ6-9b877815.mjs",
+    "file": "shadow-css-9e778f69-c68d0961-5DSHBRJ6-6b88abd8.mjs",
     "src": "node_modules/universalviewer/dist/esm/shadow-css-9e778f69-c68d0961-5DSHBRJ6.js",
     "isDynamicEntry": true,
     "imports": [
@@ -379,7 +379,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/cy-GB-IHBTWEE4.js": {
-    "file": "cy-GB-IHBTWEE4-871429dd.mjs",
+    "file": "cy-GB-IHBTWEE4-f582de68.mjs",
     "src": "node_modules/universalviewer/dist/esm/cy-GB-IHBTWEE4.js",
     "isDynamicEntry": true,
     "imports": [
@@ -387,7 +387,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/fr-FR-SX32APTS.js": {
-    "file": "fr-FR-SX32APTS-13200eff.mjs",
+    "file": "fr-FR-SX32APTS-07343759.mjs",
     "src": "node_modules/universalviewer/dist/esm/fr-FR-SX32APTS.js",
     "isDynamicEntry": true,
     "imports": [
@@ -395,7 +395,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pl-PL-6Q4OWJUB.js": {
-    "file": "pl-PL-6Q4OWJUB-d2b3f504.mjs",
+    "file": "pl-PL-6Q4OWJUB-03b0f4c4.mjs",
     "src": "node_modules/universalviewer/dist/esm/pl-PL-6Q4OWJUB.js",
     "isDynamicEntry": true,
     "imports": [
@@ -403,7 +403,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/sv-SE-5KIJEH7C.js": {
-    "file": "sv-SE-5KIJEH7C-a2f67eba.mjs",
+    "file": "sv-SE-5KIJEH7C-c99d1256.mjs",
     "src": "node_modules/universalviewer/dist/esm/sv-SE-5KIJEH7C.js",
     "isDynamicEntry": true,
     "imports": [
@@ -411,7 +411,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/dom-ITI5BMGR.js": {
-    "file": "dom-ITI5BMGR-611b3a7c.mjs",
+    "file": "dom-ITI5BMGR-b5a9282a.mjs",
     "src": "node_modules/universalviewer/dist/esm/dom-ITI5BMGR.js",
     "isDynamicEntry": true,
     "imports": [
@@ -419,7 +419,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/core-js-66EU3Z5G.js": {
-    "file": "core-js-66EU3Z5G-b1992a73.mjs",
+    "file": "core-js-66EU3Z5G-38ee3b37.mjs",
     "src": "node_modules/universalviewer/dist/esm/core-js-66EU3Z5G.js",
     "isDynamicEntry": true,
     "imports": [
@@ -427,7 +427,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/css-shim-978387b1-1e75855f-O4PYI7RC.js": {
-    "file": "css-shim-978387b1-1e75855f-O4PYI7RC-327986ef.mjs",
+    "file": "css-shim-978387b1-1e75855f-O4PYI7RC-1f0ea61e.mjs",
     "src": "node_modules/universalviewer/dist/esm/css-shim-978387b1-1e75855f-O4PYI7RC.js",
     "isDynamicEntry": true,
     "imports": [
@@ -435,7 +435,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/cy-GB-LTUUSXSY.js": {
-    "file": "cy-GB-LTUUSXSY-cb182915.mjs",
+    "file": "cy-GB-LTUUSXSY-40626f1c.mjs",
     "src": "node_modules/universalviewer/dist/esm/cy-GB-LTUUSXSY.js",
     "isDynamicEntry": true,
     "imports": [
@@ -443,7 +443,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/fr-FR-DKL5MCZE.js": {
-    "file": "fr-FR-DKL5MCZE-74e6bead.mjs",
+    "file": "fr-FR-DKL5MCZE-a8dd3af5.mjs",
     "src": "node_modules/universalviewer/dist/esm/fr-FR-DKL5MCZE.js",
     "isDynamicEntry": true,
     "imports": [
@@ -451,7 +451,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pl-PL-7Q76AJED.js": {
-    "file": "pl-PL-7Q76AJED-0c2f633d.mjs",
+    "file": "pl-PL-7Q76AJED-43042227.mjs",
     "src": "node_modules/universalviewer/dist/esm/pl-PL-7Q76AJED.js",
     "isDynamicEntry": true,
     "imports": [
@@ -459,7 +459,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/sv-SE-PBF7APYM.js": {
-    "file": "sv-SE-PBF7APYM-299f52ff.mjs",
+    "file": "sv-SE-PBF7APYM-7ba8469a.mjs",
     "src": "node_modules/universalviewer/dist/esm/sv-SE-PBF7APYM.js",
     "isDynamicEntry": true,
     "imports": [
@@ -467,7 +467,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/cy-GB-MR4WLKYA.js": {
-    "file": "cy-GB-MR4WLKYA-29eb633f.mjs",
+    "file": "cy-GB-MR4WLKYA-f05793d0.mjs",
     "src": "node_modules/universalviewer/dist/esm/cy-GB-MR4WLKYA.js",
     "isDynamicEntry": true,
     "imports": [
@@ -475,7 +475,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/fr-FR-G77KSGXA.js": {
-    "file": "fr-FR-G77KSGXA-d109b914.mjs",
+    "file": "fr-FR-G77KSGXA-23ee43eb.mjs",
     "src": "node_modules/universalviewer/dist/esm/fr-FR-G77KSGXA.js",
     "isDynamicEntry": true,
     "imports": [
@@ -483,7 +483,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pl-PL-PDGLKQUY.js": {
-    "file": "pl-PL-PDGLKQUY-d08fa679.mjs",
+    "file": "pl-PL-PDGLKQUY-274c21dc.mjs",
     "src": "node_modules/universalviewer/dist/esm/pl-PL-PDGLKQUY.js",
     "isDynamicEntry": true,
     "imports": [
@@ -491,7 +491,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/sv-SE-377YIFL3.js": {
-    "file": "sv-SE-377YIFL3-b988a7f1.mjs",
+    "file": "sv-SE-377YIFL3-4000718b.mjs",
     "src": "node_modules/universalviewer/dist/esm/sv-SE-377YIFL3.js",
     "isDynamicEntry": true,
     "imports": [
@@ -499,7 +499,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/cy-GB-BGXBT7C3.js": {
-    "file": "cy-GB-BGXBT7C3-0f349dfd.mjs",
+    "file": "cy-GB-BGXBT7C3-b1b5b619.mjs",
     "src": "node_modules/universalviewer/dist/esm/cy-GB-BGXBT7C3.js",
     "isDynamicEntry": true,
     "imports": [
@@ -507,7 +507,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/fr-FR-WNWKAXBT.js": {
-    "file": "fr-FR-WNWKAXBT-b4110b74.mjs",
+    "file": "fr-FR-WNWKAXBT-ac4b6a7a.mjs",
     "src": "node_modules/universalviewer/dist/esm/fr-FR-WNWKAXBT.js",
     "isDynamicEntry": true,
     "imports": [
@@ -515,7 +515,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pl-PL-WVUPDYLM.js": {
-    "file": "pl-PL-WVUPDYLM-648e5c5e.mjs",
+    "file": "pl-PL-WVUPDYLM-443d70fc.mjs",
     "src": "node_modules/universalviewer/dist/esm/pl-PL-WVUPDYLM.js",
     "isDynamicEntry": true,
     "imports": [
@@ -523,7 +523,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/sv-SE-N27HYQH5.js": {
-    "file": "sv-SE-N27HYQH5-eaa24460.mjs",
+    "file": "sv-SE-N27HYQH5-01d9f739.mjs",
     "src": "node_modules/universalviewer/dist/esm/sv-SE-N27HYQH5.js",
     "isDynamicEntry": true,
     "imports": [
@@ -531,7 +531,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/cy-GB-I34VTGO4.js": {
-    "file": "cy-GB-I34VTGO4-3dd530ae.mjs",
+    "file": "cy-GB-I34VTGO4-e8f18196.mjs",
     "src": "node_modules/universalviewer/dist/esm/cy-GB-I34VTGO4.js",
     "isDynamicEntry": true,
     "imports": [
@@ -539,7 +539,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/fr-FR-ZJUT377C.js": {
-    "file": "fr-FR-ZJUT377C-c7c46a17.mjs",
+    "file": "fr-FR-ZJUT377C-9f3c54ce.mjs",
     "src": "node_modules/universalviewer/dist/esm/fr-FR-ZJUT377C.js",
     "isDynamicEntry": true,
     "imports": [
@@ -547,7 +547,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pl-PL-HBH3J3FL.js": {
-    "file": "pl-PL-HBH3J3FL-bc6b2ef3.mjs",
+    "file": "pl-PL-HBH3J3FL-fe20dbc7.mjs",
     "src": "node_modules/universalviewer/dist/esm/pl-PL-HBH3J3FL.js",
     "isDynamicEntry": true,
     "imports": [
@@ -555,7 +555,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/sv-SE-FBZMG7HD.js": {
-    "file": "sv-SE-FBZMG7HD-f4230a7f.mjs",
+    "file": "sv-SE-FBZMG7HD-d042db42.mjs",
     "src": "node_modules/universalviewer/dist/esm/sv-SE-FBZMG7HD.js",
     "isDynamicEntry": true,
     "imports": [
@@ -563,7 +563,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pdfobject-RVTYN2PB.js": {
-    "file": "pdfobject-RVTYN2PB-f2a431a2.mjs",
+    "file": "pdfobject-RVTYN2PB-9e60bfe5.mjs",
     "src": "node_modules/universalviewer/dist/esm/pdfobject-RVTYN2PB.js",
     "isDynamicEntry": true,
     "imports": [
@@ -571,7 +571,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pdf-AAP6T5H7.js": {
-    "file": "pdf-AAP6T5H7-bf808d5e.mjs",
+    "file": "pdf-AAP6T5H7-9e7376f0.mjs",
     "src": "node_modules/universalviewer/dist/esm/pdf-AAP6T5H7.js",
     "isDynamicEntry": true,
     "imports": [
@@ -579,7 +579,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/cy-GB-WWDYYBGX.js": {
-    "file": "cy-GB-WWDYYBGX-1a0e2ded.mjs",
+    "file": "cy-GB-WWDYYBGX-5780da74.mjs",
     "src": "node_modules/universalviewer/dist/esm/cy-GB-WWDYYBGX.js",
     "isDynamicEntry": true,
     "imports": [
@@ -587,7 +587,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/fr-FR-Y4OU6ZBH.js": {
-    "file": "fr-FR-Y4OU6ZBH-741a2785.mjs",
+    "file": "fr-FR-Y4OU6ZBH-2ff930fc.mjs",
     "src": "node_modules/universalviewer/dist/esm/fr-FR-Y4OU6ZBH.js",
     "isDynamicEntry": true,
     "imports": [
@@ -595,7 +595,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pl-PL-UQWPTAG2.js": {
-    "file": "pl-PL-UQWPTAG2-9f3b78a4.mjs",
+    "file": "pl-PL-UQWPTAG2-09770edf.mjs",
     "src": "node_modules/universalviewer/dist/esm/pl-PL-UQWPTAG2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -603,7 +603,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/sv-SE-QMXBFALH.js": {
-    "file": "sv-SE-QMXBFALH-b61d7997.mjs",
+    "file": "sv-SE-QMXBFALH-b3eef265.mjs",
     "src": "node_modules/universalviewer/dist/esm/sv-SE-QMXBFALH.js",
     "isDynamicEntry": true,
     "imports": [
