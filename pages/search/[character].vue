@@ -56,6 +56,6 @@ function move() {
     </div>
 
     <!-- Results -->
-    <Results v-if="glyphs" />a
+    <Results v-if="glyphs" />
   </div>
 </template>

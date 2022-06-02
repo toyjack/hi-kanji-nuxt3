@@ -7,6 +7,7 @@ export const useGlyphStore = defineStore('glyphs', {
     divisions: <string[]>[],
     dates: <string[]>[],
     ceDates: <string[]>[],
+    ifShowFilter: true,
   }),
   actions: {
     async addGlyph(glyph) {

@@ -2,7 +2,7 @@
 import { storeToRefs } from 'pinia'
 import { useGlyphStore } from '@/stores/glyphs'
 const glyphStore = useGlyphStore()
-const { occupations, divisions, dates, ceDates, glyphs } = storeToRefs(glyphStore)
+const { occupations, divisions, dates, ceDates, glyphs,ifShowFilter } = storeToRefs(glyphStore)
 
 interface Ifilter {
   division?: string,
@@ -24,7 +24,6 @@ const selected = <Ifilter>reactive({
   ce_date: 'all',
 })
 
-const ifShowFilter = ref('false')
 const filter = <Ifilter>reactive({})
 
 const filterdResults = computed(() => {
