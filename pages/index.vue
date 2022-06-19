@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const hanzi = ref<string>("天")
+const hanzi = ref<string>("東")
 
 function move() {
   return navigateTo({
