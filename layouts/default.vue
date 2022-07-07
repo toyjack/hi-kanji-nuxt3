@@ -12,7 +12,9 @@
         </h3>
       </div>
 
-     <LangButton />
+      <div class="pt-4 pr-1">
+        <LangButton />
+      </div>
     </header>
 
     <main class="flex-grow">
