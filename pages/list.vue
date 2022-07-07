@@ -1,6 +1,9 @@
 <script setup lang="ts">
 const route = useRoute()
-const selected = ref(route.path.split("/")[2])
+const selected = ref("")
+if (route.path.split("/")[2]) {
+  selected.value = route.path.split("/")[2]
+}
 const options =[
   { text: 'Kana', value: 'kana' },
   { text: 'Kanji', value: 'kanji' },

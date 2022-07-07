@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import bushu from "public/radicals.json"
 const route = useRoute()
-const selected = ref(decodeURI(route.path.split("/")[3]))
+const selected = ref("")
+if (route.path.split("/")[3]){
+  selected.value = decodeURI(route.path.split("/")[3])
+}
 
 function changeSelected() {
   return navigateTo({
