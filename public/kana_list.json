@@ -1,0 +1,695 @@
+[
+  {
+    "kanji": "え",
+    "type": "kana",
+    "unicode": "U+3048",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "あ",
+    "type": "kana",
+    "unicode": "U+3042",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "う",
+    "type": "kana",
+    "unicode": "U+3046",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "お",
+    "type": "kana",
+    "unicode": "U+304A",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "が",
+    "type": "kana",
+    "unicode": "U+304C",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "い",
+    "type": "kana",
+    "unicode": "U+3044",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ぎ",
+    "type": "kana",
+    "unicode": "U+304E",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "き",
+    "type": "kana",
+    "unicode": "U+304D",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "か",
+    "type": "kana",
+    "unicode": "U+304B",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ご",
+    "type": "kana",
+    "unicode": "U+3054",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "く",
+    "type": "kana",
+    "unicode": "U+304F",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ざ",
+    "type": "kana",
+    "unicode": "U+3056",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "こ",
+    "type": "kana",
+    "unicode": "U+3053",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "け",
+    "type": "kana",
+    "unicode": "U+3051",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "さ",
+    "type": "kana",
+    "unicode": "U+3055",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "じ",
+    "type": "kana",
+    "unicode": "U+3058",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "し",
+    "type": "kana",
+    "unicode": "U+3057",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ぜ",
+    "type": "kana",
+    "unicode": "U+305C",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "そ",
+    "type": "kana",
+    "unicode": "U+305D",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "せ",
+    "type": "kana",
+    "unicode": "U+305B",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "す",
+    "type": "kana",
+    "unicode": "U+3059",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "た",
+    "type": "kana",
+    "unicode": "U+305F",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ぢ",
+    "type": "kana",
+    "unicode": "U+3062",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "つ",
+    "type": "kana",
+    "unicode": "U+3064",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ち",
+    "type": "kana",
+    "unicode": "U+3061",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "て",
+    "type": "kana",
+    "unicode": "U+3066",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "と",
+    "type": "kana",
+    "unicode": "U+3068",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "な",
+    "type": "kana",
+    "unicode": "U+306A",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "に",
+    "type": "kana",
+    "unicode": "U+306B",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ぬ",
+    "type": "kana",
+    "unicode": "U+306C",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ね",
+    "type": "kana",
+    "unicode": "U+306D",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "の",
+    "type": "kana",
+    "unicode": "U+306E",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "は",
+    "type": "kana",
+    "unicode": "U+306F",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ひ",
+    "type": "kana",
+    "unicode": "U+3072",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "び",
+    "type": "kana",
+    "unicode": "U+3073",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ふ",
+    "type": "kana",
+    "unicode": "U+3075",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ぶ",
+    "type": "kana",
+    "unicode": "U+3076",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "へ",
+    "type": "kana",
+    "unicode": "U+3078",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ほ",
+    "type": "kana",
+    "unicode": "U+307B",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ぼ",
+    "type": "kana",
+    "unicode": "U+307C",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ま",
+    "type": "kana",
+    "unicode": "U+307E",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "み",
+    "type": "kana",
+    "unicode": "U+307F",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "む",
+    "type": "kana",
+    "unicode": "U+3080",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "め",
+    "type": "kana",
+    "unicode": "U+3081",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "も",
+    "type": "kana",
+    "unicode": "U+3082",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "や",
+    "type": "kana",
+    "unicode": "U+3084",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ゆ",
+    "type": "kana",
+    "unicode": "U+3086",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ら",
+    "type": "kana",
+    "unicode": "U+3089",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "る",
+    "type": "kana",
+    "unicode": "U+308B",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "よ",
+    "type": "kana",
+    "unicode": "U+3088",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "れ",
+    "type": "kana",
+    "unicode": "U+308C",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ろ",
+    "type": "kana",
+    "unicode": "U+308D",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "り",
+    "type": "kana",
+    "unicode": "U+308A",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ゐ",
+    "type": "kana",
+    "unicode": "U+3090",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ゑ",
+    "type": "kana",
+    "unicode": "U+3091",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ん",
+    "type": "kana",
+    "unicode": "U+3093",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "わ",
+    "type": "kana",
+    "unicode": "U+308F",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "を",
+    "type": "kana",
+    "unicode": "U+3092",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ゞ",
+    "type": "kana",
+    "unicode": "U+309E",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ア",
+    "type": "kana",
+    "unicode": "U+30A2",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "イ",
+    "type": "kana",
+    "unicode": "U+30A4",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ウ",
+    "type": "kana",
+    "unicode": "U+30A6",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "キ",
+    "type": "kana",
+    "unicode": "U+30AD",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "カ",
+    "type": "kana",
+    "unicode": "U+30AB",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ク",
+    "type": "kana",
+    "unicode": "U+30AF",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ケ",
+    "type": "kana",
+    "unicode": "U+30B1",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "コ",
+    "type": "kana",
+    "unicode": "U+30B3",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "サ",
+    "type": "kana",
+    "unicode": "U+30B5",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "シ",
+    "type": "kana",
+    "unicode": "U+30B7",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ス",
+    "type": "kana",
+    "unicode": "U+30B9",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "セ",
+    "type": "kana",
+    "unicode": "U+30BB",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "タ",
+    "type": "kana",
+    "unicode": "U+30BF",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "チ",
+    "type": "kana",
+    "unicode": "U+30C1",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ソ",
+    "type": "kana",
+    "unicode": "U+30BD",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ニ",
+    "type": "kana",
+    "unicode": "U+30CB",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "テ",
+    "type": "kana",
+    "unicode": "U+30C6",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ト",
+    "type": "kana",
+    "unicode": "U+30C8",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ツ",
+    "type": "kana",
+    "unicode": "U+30C4",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ナ",
+    "type": "kana",
+    "unicode": "U+30CA",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ノ",
+    "type": "kana",
+    "unicode": "U+30CE",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "バ",
+    "type": "kana",
+    "unicode": "U+30D0",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ハ",
+    "type": "kana",
+    "unicode": "U+30CF",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "フ",
+    "type": "kana",
+    "unicode": "U+30D5",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "マ",
+    "type": "kana",
+    "unicode": "U+30DE",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "メ",
+    "type": "kana",
+    "unicode": "U+30E1",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "モ",
+    "type": "kana",
+    "unicode": "U+30E2",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ミ",
+    "type": "kana",
+    "unicode": "U+30DF",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ヤ",
+    "type": "kana",
+    "unicode": "U+30E4",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ム",
+    "type": "kana",
+    "unicode": "U+30E0",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ユ",
+    "type": "kana",
+    "unicode": "U+30E6",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ヨ",
+    "type": "kana",
+    "unicode": "U+30E8",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ラ",
+    "type": "kana",
+    "unicode": "U+30E9",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "リ",
+    "type": "kana",
+    "unicode": "U+30EA",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ル",
+    "type": "kana",
+    "unicode": "U+30EB",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "レ",
+    "type": "kana",
+    "unicode": "U+30EC",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ワ",
+    "type": "kana",
+    "unicode": "U+30EF",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ヰ",
+    "type": "kana",
+    "unicode": "U+30F0",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ヲ",
+    "type": "kana",
+    "unicode": "U+30F2",
+    "radical": "null",
+    "remain_stroke": "null"
+  },
+  {
+    "kanji": "ン",
+    "type": "kana",
+    "unicode": "U+30F3",
+    "radical": "null",
+    "remain_stroke": "null"
+  }
+]

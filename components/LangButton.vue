@@ -22,7 +22,6 @@ const langList = ref([
 function changeLang(lang: string) {
   console.log(lang)
   locale.value = lang
-  console.log(t("message.hello"))
 }
 </script>
 <template>

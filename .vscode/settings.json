@@ -1,9 +1,7 @@
 {
   "i18n-ally.dirStructure": "auto",
-  "i18n-ally.enabledParsers": ["js", "ts"],
 
   "i18n-ally.keystyle": "auto",
-  "i18n-ally.pathMatcher": "{locale}.ts",
   "i18n-ally.localesPaths": [
     "i18n"
   ],

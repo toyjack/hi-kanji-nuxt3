@@ -1,5 +1,17 @@
 {
+  "author": "刘冠伟",
+  "button": {
+    "search": "查找"
+  },
+  "index": {
+    "fromHiut": "东京大学史料编纂所",
+    "hiut": "东京大学史料编纂所",
+    "title": "历史文字数据库",
+    "allImg": "本站所有图片均源自",
+    "search-all-characters": "Search all characters",
+    "bgImage": "背景图片: 愚昧記 三条実房(自筆) "
+  },
   "message": {
-    "hello": "你好！"
+    "hello": "hello world"
   }
 }

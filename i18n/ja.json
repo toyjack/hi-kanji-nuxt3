@@ -1,8 +1,15 @@
 {
+  "author": "劉冠偉",
+  "button": {
+    "search": "検索"
+  },
   "index": {
+    "fromHiut": "東京大学史料編纂所",
     "hiut": "東京大学史料編纂所",
     "title": "史的文字データベース",
-    "allImg": "All images from"
+    "allImg": "画像ソース：",
+    "search-all-characters": "単漢字検索",
+    "bgImage": "背景画像: 愚昧記 三条実房(自筆) "
   },
   "message": {
     "hello": "hello world"
