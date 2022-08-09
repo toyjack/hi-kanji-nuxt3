@@ -146,6 +146,7 @@ onMounted(async () => {
 
       <div class="flex flex-col p-2 border-2 rounded border-blue-500">
         <h3 class="text-xl font-bold">IIIF Manifest</h3>
+        <!-- TODO: add button for copy to clipboard -->
         <p>URL: <a :href="displayData.data[0].manifest_url" target="blank" class="underline hover:text-blue-500">{{
             displayData.data[0].manifest_url
         }}</a> </p>

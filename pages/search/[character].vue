@@ -43,7 +43,7 @@ function move() {
     path: `/search/${inputCharacter.value}`,
   })
 }
-
+// TODO: auto header update
 </script>
 
 <template>
