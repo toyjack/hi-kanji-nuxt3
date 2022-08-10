@@ -1,16 +1,52 @@
 <script setup lang="ts">
 import * as UV from "universalviewer/dist/esm/";
-// import 'universalviewer/dist/esm/index.css'
-// import 'universalviewer/dist/uv.css'
 import "../../assets/uv.css"
 
 // TODO: add type for fetched data
 const route = useRoute()
 const id = route.params.id
 const baseUrl = "https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/controlnumber/"
-
+interface DataBody {
+  identifer: string,
+  id: string,
+  title: string,
+  delegate: number,
+  radical_code: string,
+  unicode: string, //TODO need check
+  daikanwa_code: number,
+  chinese_reading: string,
+  japanese_reading: string,
+  source: {
+    division: string,
+    call_number: string,
+    page: number,
+    date: string,
+    document: string,
+    value: string,
+    send: string,
+    to: string,
+    remarks: string,
+    occupation: string
+  },
+  coverage: {
+    date: string,
+    geo: {
+      lat: string,
+      lon: string
+    }
+  },
+  thumbnail_url: string,
+  manifest_url: string,
+  subject: string,
+  creator: string,
+  rights: string,
+  rights_url: string
+}
+interface APIBody {
+  data: [DataBody]
+}
 const fetchUrl = baseUrl + id
-const { data: displayData, pending } = await useFetch(fetchUrl, { pick: ['data'] })
+const { data: displayData, pending } = await useFetch<APIBody>(fetchUrl, { pick: ['data'] })
 const manifest_url = displayData.value.data.flat()[0].manifest_url
 
 const unihanBaseUrl = "https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint="
