@@ -19,10 +19,10 @@ const route =  useRoute()
       </div>
 
       <div class="tabs md:px-20">
-        <NuxtLink class="tab tab-lifted" to="/" activeClass="tab-active">Home</NuxtLink>
-        <NuxtLink class="tab tab-lifted" to="/search" activeClass="tab-active">Search</NuxtLink>
-        <NuxtLink class="tab tab-lifted" to="/list" activeClass="tab-active">List</NuxtLink>
-        <NuxtLink class="tab tab-lifted" to="/about" activeClass="tab-active">About</NuxtLink>
+        <NuxtLink class="tab tab-lifted" to="/" activeClass="tab-active">{{ $t('home') }}</NuxtLink>
+        <NuxtLink class="tab tab-lifted" to="/search" activeClass="tab-active">{{ $t('search') }}</NuxtLink>
+        <NuxtLink class="tab tab-lifted" to="/list" activeClass="tab-active">{{ $t('list') }}</NuxtLink>
+        <NuxtLink class="tab tab-lifted" to="/about" activeClass="tab-active">{{ $t('about') }}</NuxtLink>
       </div>
 
     </header>

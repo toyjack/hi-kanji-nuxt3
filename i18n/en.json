@@ -13,5 +13,9 @@
   },
   "message": {
     "hello": "hello world"
-  }
+  },
+  "home": "Home",
+  "search": "Search",
+  "list": "List",
+  "about": "About"
 }

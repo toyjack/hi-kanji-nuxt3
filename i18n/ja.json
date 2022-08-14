@@ -13,5 +13,9 @@
   },
   "message": {
     "hello": "hello world"
-  }
+  },
+  "home": "ホーム",
+  "about": "アバウト",
+  "list": "リスト",
+  "search": "検索"
 }
