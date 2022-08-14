@@ -1,7 +1,7 @@
 <script setup lang="ts">
 defineProps({
   selected: String,
-  list: [String],
+  list: Array,
   label: String
 })
 defineEmits(['update:selected'])
