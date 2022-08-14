@@ -22,5 +22,6 @@
   "division": "Division",
   "occupation": "Occupation",
   "date": "Date",
-  "ce-date": "CE Date"
+  "ce-date": "CE Date",
+  "all": "All"
 }

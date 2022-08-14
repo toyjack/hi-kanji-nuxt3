@@ -88,10 +88,12 @@ watch(selected, (newSelected, old) => {
     <div v-if="glyphs.length > 0" class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12">
       <div v-for="item of filterdResults"
         class="rounded-sm shadow-lg  flex flex-col sm:p-1 bg-white border hover:border-blue-300 hover:border-2">
-        <a :href="'/glyph/' + item.id" class="cursor-pointer flex flex-col h-full justify-between" target="blank">
-          <img :src="item.thumbnail_url" alt="" loading="lazy" class="w-full items-center justify-start">
-          <p class="leading-normal text-gray-100 text-center bg-blue-500 opacity-30"> {{ item.id }} </p>
-        </a>
+        <div class="tooltip" :data-tip="item.source.value.replace('@ja','')">
+          <a :href="'/glyph/' + item.id" class="cursor-pointer flex flex-col h-full justify-between" target="blank">
+            <img :src="item.thumbnail_url" alt="" loading="lazy" class="w-full items-center justify-start">
+            <p class="leading-normal text-gray-100 text-center bg-blue-500 opacity-30"> {{ item.id }} </p>
+          </a>
+        </div>
       </div>
     </div>
   </section>

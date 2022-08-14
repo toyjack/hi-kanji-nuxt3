@@ -140,7 +140,7 @@ onMounted(async () => {
         <!-- <img class="w-5/6 md:w-1/4 border-2" :src="displayData.data[0].thumbnail_url" alt=""> -->
         <div class="flex flex-col justify-center">
           <h2 class="text-xl font-bold">ID: {{ displayData.data[0].id }}</h2>
-          <h2 class="text-xl font-bold">Character: {{ displayData.data[0].title }}</h2>
+          <h2 class="text-xl font-bold">Character: {{ displayData.data[0].title.replace("@ja","") }}</h2>
           <h2 class="text-xl font-bold">
             Unicode:
             <a class="underline hover:text-blue-500"
@@ -149,23 +149,25 @@ onMounted(async () => {
             </a>
           </h2>
           <h2 class="text-xl font-bold">Daikanwa Code: {{ displayData.data[0].daikanwa_code }}</h2>
-          <h2 class="text-xl font-bold">Chinese Reading: {{ displayData.data[0].chinese_reading }}</h2>
-          <h2 class="text-xl font-bold">Japanese Reading: {{ displayData.data[0].japanese_reading }}</h2>
+          <h2 class="text-xl font-bold">Chinese Reading: {{ displayData.data[0].chinese_reading.replace("@ja", "") }}
+          </h2>
+          <h2 class="text-xl font-bold">Japanese Reading: {{ displayData.data[0].japanese_reading.replace("@ja", "") }}
+          </h2>
         </div>
       </div>
 
       <div class="flex flex-col p-1 border-2 rounded border-blue-500">
         <h1 class="text-xl font-bold">Source:</h1>
-        <h2 class="">division: {{ displayData.data[0].source.division }}</h2>
-        <h2 class="">call_number: {{ displayData.data[0].source.call_number }}</h2>
+        <h2 class="">division: {{ displayData.data[0].source.division.replace("@ja", "") }}</h2>
+        <h2 class="">call_number: {{ displayData.data[0].source.call_number.replace("@ja", "") }}</h2>
         <h2 class="">page: {{ displayData.data[0].source.page }}</h2>
-        <h2 class="">date: {{ displayData.data[0].source.date }}</h2>
-        <h2 class="">document: {{ displayData.data[0].source.document }}</h2>
-        <h2 class="">value: {{ displayData.data[0].source.value }}</h2>
-        <h2 class="">send: {{ displayData.data[0].source.send }}</h2>
-        <h2 class="">to: {{ displayData.data[0].source.to }}</h2>
-        <h2 class="">remarks: {{ displayData.data[0].source.remarks }}</h2>
-        <h2 class="">occupation: {{ displayData.data[0].source.occupation }}</h2>
+        <h2 class="">date: {{ displayData.data[0].source.date.replace("@ja", "") }}</h2>
+        <h2 class="">document: {{ displayData.data[0].source.document.replace("@ja", "") }}</h2>
+        <h2 class="">value: {{ displayData.data[0].source.value.replace("@ja", "") }}</h2>
+        <h2 class="">send: {{ displayData.data[0].source.send.replace("@ja", "") }}</h2>
+        <h2 class="">to: {{ displayData.data[0].source.to.replace("@ja", "") }}</h2>
+        <h2 class="">remarks: {{ displayData.data[0].source.remarks.replace("@ja", "") }}</h2>
+        <h2 class="">occupation: {{ displayData.data[0].source.occupation.replace("@ja", "") }}</h2>
       </div>
 
       <div class="flex flex-col p-1 border-2 border-blue-500 rounded">
@@ -174,7 +176,7 @@ onMounted(async () => {
           <a class="underline hover:text-blue-500" target="blank"
             :href="getClioimgUrl(displayData.data[0].source.call_number, displayData.data[0].source.page, displayData.data[0].id)">
             {{ getClioimgUrl(displayData.data[0].source.call_number, displayData.data[0].source.page,
-                displayData.data[0].id)
+            displayData.data[0].id)
             }}
           </a>
         </h2>
@@ -184,7 +186,7 @@ onMounted(async () => {
         <h3 class="text-xl font-bold">IIIF Manifest</h3>
         <!-- TODO: add button for copy to clipboard -->
         <p>URL: <a :href="displayData.data[0].manifest_url" target="blank" class="underline hover:text-blue-500">{{
-            displayData.data[0].manifest_url
+        displayData.data[0].manifest_url
         }}</a> </p>
       </div>
     </div>
