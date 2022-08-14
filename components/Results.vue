@@ -14,7 +14,7 @@ interface Ifilter {
   ce_date?: string,
 }
 
-const selected = <Ifilter>reactive({
+const selected = reactive<Ifilter>({
   division: 'all',
   document: 'all',
   book: 'all',
@@ -24,7 +24,7 @@ const selected = <Ifilter>reactive({
   ce_date: 'all',
 })
 
-const filter = <Ifilter>reactive({})
+const filter = reactive<Ifilter>({})
 
 const filterdResults = computed(() => {
   return glyphs.value.filter((item) => {
@@ -63,14 +63,14 @@ watch(selected, (newSelected, old) => {
         </label>
       </div>
       <span class="text-gray-400 font-medium">
-        Filter
+        {{ $t('filter') }}
       </span>
     </div>
     <div :class="{ hidden: ifShowFilter === 'false' }" class="md:flex flex-col md:flex-row justify-center gap-1">
-      <Select label="Division" :list="divisions" v-model:selected="selected.division" />
-      <Select label="Occupation" :list="occupations" v-model:selected="selected.occupation" />
-      <Select label="Date" :list="dates" v-model:selected="selected.date" />
-      <Select label="Date" :list="ceDates" v-model:selected="selected.ce_date" />
+      <Select :label="$t('division')" :list="divisions" v-model:selected="selected.division" />
+      <Select :label="$t('occupation')" :list="occupations" v-model:selected="selected.occupation" />
+      <Select :label="$t('date')" :list="dates" v-model:selected="selected.date" />
+      <Select :label="$t('ce-date')" :list="ceDates" v-model:selected="selected.ce_date" />
       <!-- <Select label="Document" :list="documents" v-model:selected="selected.document" /> -->
       <!-- <Select label="Book" :list="books" v-model:selected="selected.book" /> -->
       <!-- <Select label="Sends" :list="sends" v-model:selected="selected.send" /> -->

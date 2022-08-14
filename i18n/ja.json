@@ -17,5 +17,10 @@
   "home": "ホーム",
   "about": "アバウト",
   "list": "リスト",
-  "search": "検索"
+  "search": "検索",
+  "division": "区分",
+  "occupation": "位相",
+  "date": "和暦",
+  "ce-date": "西暦",
+  "filter": "フィルター"
 }

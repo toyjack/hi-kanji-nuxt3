@@ -1,48 +1,17 @@
 <script setup lang="ts">
 import { storeToRefs } from 'pinia'
 import { useGlyphStore } from '@/stores/glyphs'
+
 const glyphStore = useGlyphStore()
 const { glyphs } = storeToRefs(glyphStore)
 
-glyphStore.clear()
-
 const route = useRoute()
 const character = route.params.character as string
-let delegate = 0
-let position = 1
-const isPending = ref(false)
-
-const inputCharacter = ref<string>(character)
-const results = ref<string[]>([])
 
 if (character) {
-  isPending.value = true
-  await search()
+  glyphStore.fetchData(character)
 }
 
-async function search() {
-  const fetchUrl = `https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/character/${character}?delegate=${delegate}&position=${position}`
-  const { data: tempResult } = await useFetch(fetchUrl)
-
-  const resultList = tempResult.value.list
-  const resultNum = tempResult.value.search_results as number
-  // results.value.push(...resultList)
-  resultList.forEach(item => glyphStore.addGlyph(item))
-
-  if (resultNum < 100) {
-    position = 1
-    isPending.value = false
-  } else {
-    position += 100
-    search()
-  }
-}
-
-function move() {
-  return navigateTo({
-    path: `/search/${inputCharacter.value}`,
-  })
-}
 // TODO: auto header update
 </script>
 

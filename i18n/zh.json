@@ -13,5 +13,14 @@
   },
   "message": {
     "hello": "hello world"
-  }
+  },
+  "division": "区分",
+  "about": "关于",
+  "ce-date": "西历",
+  "date": "和历",
+  "filter": "过滤器",
+  "home": "首页",
+  "list": "列表",
+  "occupation": "身份",
+  "search": "查找"
 }

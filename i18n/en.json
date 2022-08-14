@@ -17,5 +17,10 @@
   "home": "Home",
   "search": "Search",
   "list": "List",
-  "about": "About"
+  "about": "About",
+  "filter": "Filter",
+  "division": "Division",
+  "occupation": "Occupation",
+  "date": "Date",
+  "ce-date": "CE Date"
 }
