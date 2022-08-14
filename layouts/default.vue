@@ -1,21 +1,33 @@
 <script setup lang="ts">
+const route =  useRoute()
 </script>
 
 <template>
   <div class="h-screen flex flex-col">
 
-    <header class="px-2 py-7 md:p-20 bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-row justify-between">
-      <div>
-        <h6 class="text-sm md:text-xl text-white">{{ $t('index.hiut') }}</h6>
-        <h3 class="text-left text-xl md:text-3xl font-serif text-white  uppercase">
-          <NuxtLink to="/" class="hover:underline">{{ $t('index.title') }}</NuxtLink>
-        </h3>
+    <header class="bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-col justify-between">
+      <div class="flex flex-row justify-between px-2 pt-7 pb-2 md:p-20 ">
+        <div class="flex flex-col">
+          <h6 class="text-sm md:text-xl text-white">{{ $t('index.hiut') }}</h6>
+          <h3 class="text-left text-xl md:text-3xl font-serif text-white  uppercase">
+            <NuxtLink to="/" class="hover:underline">{{ $t('index.title') }}</NuxtLink>
+          </h3>
+        </div>
+        <div class="pt-4 pr-1 flex flex-row">
+          <LangButton />
+        </div>
       </div>
 
-      <div class="pt-4 pr-1">
-        <LangButton />
+      <div class="tabs md:px-20">
+        <NuxtLink class="tab tab-lifted" to="/" activeClass="tab-active">Home</NuxtLink>
+        <NuxtLink class="tab tab-lifted" to="/search" activeClass="tab-active">Search</NuxtLink>
+        <NuxtLink class="tab tab-lifted" to="/list" activeClass="tab-active">List</NuxtLink>
+        <NuxtLink class="tab tab-lifted" to="/about" activeClass="tab-active">About</NuxtLink>
       </div>
+
     </header>
+
+
 
     <main class="flex-grow">
       <slot />
