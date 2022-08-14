@@ -12,8 +12,6 @@ if (character) {
   glyphStore.fetchData(character)
 }
 
-console.log(glyphStore.sortedGlyphs)
-
 // TODO: auto header update
 </script>
 

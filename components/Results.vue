@@ -2,7 +2,7 @@
 import { storeToRefs } from 'pinia'
 import { useGlyphStore } from '@/stores/glyphs'
 const glyphStore = useGlyphStore()
-const { occupations, divisions, dates, ceDates, glyphs,sortedGlyphs,ifShowFilter } = storeToRefs(glyphStore)
+const { occupations, divisions, dates, ceDates, glyphs,ifShowFilter } = storeToRefs(glyphStore)
 
 interface Ifilter {
   division?: string,
@@ -28,7 +28,7 @@ const filter = reactive<Ifilter>({})
 
 const filterdResults = computed(() => {
   // sorted results
-  return sortedGlyphs.value.filter((item) => {
+  return glyphs.value.filter((item) => {
     for (let key in filter) {
       if (item.source[key] === undefined || item.source[key] != filter[key])
         return false;

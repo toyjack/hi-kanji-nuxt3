@@ -31,6 +31,7 @@ export const useGlyphStore = defineStore('glyphs', {
       }
       
       await this.convAllYear()
+      this.glyphs = this.glyphs.sort((a, b) => a.source.ce_date.localeCompare(b.source.ce_date))
     },
     async addGlyph(glyph) {
       let date = glyph.source.date
@@ -84,11 +85,6 @@ export const useGlyphStore = defineStore('glyphs', {
       }
     }
   },
-  getters:{
-    sortedGlyphs(state){
-      return state.glyphs.sort((a, b) => a.source.ce_date.localeCompare(b.source.ce_date))
-    }
-  }
 })
 
 
