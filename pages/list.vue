@@ -17,14 +17,19 @@ function changeSelected(){
 </script>
 
 <template>
-  <div>
-    <h2>Type List</h2>
-    <select class="select w-full max-w-xs" v-model="selected" @change="changeSelected()">
-      <option disabled value=''>Select to show</option>
-      <option v-for="option in options" :value="option.value">
-        {{option.text}}
-      </option>
-    </select>
-    <NuxtPage :foobar="123" />
+  <div class="container mx-auto">
+    <div class="form-control w-full max-w-xs p-1 md:p-3">
+      <label class="label">
+        <span class="label-text">字種を選ぶ</span>
+      </label>
+      <select class="select select-bordered" v-model="selected" @change="changeSelected()">
+        <option disabled selected value=''>Select to show</option>
+        <option v-for="option in options" :value="option.value">
+          {{option.text}}
+        </option>
+      </select>
+    </div>
+
+    <NuxtPage />
   </div>
 </template>

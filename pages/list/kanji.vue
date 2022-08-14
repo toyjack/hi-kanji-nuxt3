@@ -15,14 +15,19 @@ function changeSelected() {
 </script>
 
 <template>
-  <div>
-    <h2>Bushu List</h2>
-    <select class="select w-full max-w-xs" v-model="selected" @change="changeSelected()">
-      <option disabled value=''>Select to show</option>
-      <option v-for="option in bushu" :value="option.radical">
-        [{{option.stroke}}画] {{ option.radical }} ({{ option.count}}字)
-      </option>
-    </select>
-    <NuxtPage  />
+  <div class="container mx-auto">
+    <div class="form-control w-full max-w-xs p-1 md:p-3">
+      <label class="label">
+        <span class="label-text">部首を選ぶ</span>
+      </label>
+      <select class="select select-bordered" v-model="selected" @change="changeSelected()">
+        <option disabled selected value=''>Select to show</option>
+        <option v-for="option in bushu" :value="option.radical">
+          [{{option.stroke}}画] {{ option.radical }} ({{ option.count}}字)
+        </option>
+      </select>
+    </div>
+
+    <NuxtPage />
   </div>
 </template>

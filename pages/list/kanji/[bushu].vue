@@ -16,12 +16,10 @@ function kanjiItem(kanji: string) {
 </script>
 
 <template>
-  <div>
-    <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12">
-      <div v-for="item of filterdList"
-        class="rounded-sm shadow-lg  flex flex-col sm:p-1 bg-white border hover:border-blue-300 hover:border-2">
-        <NuxtLink :to="'/search/' + item.kanji">{{ kanjiItem(item.kanji) }}</NuxtLink>
-      </div>
+  <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12 md:gap-1 p-1 md:p-3">
+    <div v-for="item of filterdList"
+      class="rounded-sm shadow-lg  flex flex-col item-center text-center p-2 bg-white border hover:border-blue-300 hover:border-2">
+      <NuxtLink :to="'/search/' + item.kanji">{{ kanjiItem(item.kanji) }}</NuxtLink>
     </div>
   </div>
 </template>
