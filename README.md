@@ -1,6 +1,12 @@
-# Nuxt 3 Minimal Starter
+# HI-Kanji
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+hi-kanji.netlify.com
+
+## 参考
+
+* hutime
+* [編纂所異体字リスト](https://wwwap.hi.u-tokyo.ac.jp/ships/itaiji_list.jsp)
+* [OpenCC STCharacters](https://github.com/BYVoid/OpenCC/blob/master/data/dictionary/STCharacters.txt)
 
 ## Setup
 

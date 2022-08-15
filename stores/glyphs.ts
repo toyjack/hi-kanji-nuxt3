@@ -31,7 +31,6 @@ export const useGlyphStore = defineStore('glyphs', {
       }
       
       await this.convAllYear()
-      this.glyphs = this.glyphs.sort((a, b) => a.source.ce_date.localeCompare(b.source.ce_date))
     },
     async addGlyph(glyph) {
       let date = glyph.source.date
@@ -85,6 +84,11 @@ export const useGlyphStore = defineStore('glyphs', {
       }
     }
   },
+  getters: {
+    sortedByCeDate(state){
+      return state.glyphs.sort((a, b) => a.source.ce_date.localeCompare(b.source.ce_date))
+    }
+  }
 })
 
 
@@ -142,6 +146,7 @@ interface CharacterList {
     call_number: string,
     page: string,
     date: string,
+    ce_date?:string,
     document: string,
     value: string,
     send: string,
@@ -162,25 +167,6 @@ interface CharacterApiResult {
   list: [CharacterList]
 }
 
-
-async function searchList(character: string, position = 1, lastResult: CharacterList[] = [], delegate = 0) {
-  const fetchUrl = `https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/character/${character}?delegate=${delegate}&position=${position.toString()}`
-  const { data } = await useFetch<CharacterApiResult>(fetchUrl, { pick: ['list', 'search_results'] })
-  const resultList = data.value.list
-  const resultNum = data.value.search_results
-
-  return resultList
-
-  lastResult = lastResult.concat(resultList)
-  // lastResult = lastResult.concat(JSON.parse(JSON.stringify(resultList)))
-
-  if (resultNum < 100) {
-    return lastResult
-  } else {
-    position += 100
-    await searchList(character, position, lastResult)
-  }
-}
 // TODO
 // catagory: time(computed from date), division, occupation
 //  book(value, callnumber), documet, send, to
