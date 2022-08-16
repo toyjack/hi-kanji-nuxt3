@@ -1,0 +1,706 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "_nuxt/entry.cc194de1.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "_IIIFContentHandler-JCX6SYFT.5a124759.mjs",
+      "node_modules/universalviewer/dist/esm/YouTubeContentHandler-G3WX7BIY.js",
+      "pages/about.vue",
+      "pages/glyph/[id].vue",
+      "pages/index.vue",
+      "pages/list/kana.vue",
+      "pages/list/kanji/[bushu].vue",
+      "pages/list/kanji.vue",
+      "pages/list.vue",
+      "pages/search/[character].vue",
+      "pages/search.vue",
+      "virtual:nuxt:C:/Users/toyja/Codes/hi-kanji-nuxt3/.nuxt/error-component.mjs",
+      "layouts/default.vue"
+    ],
+    "css": [
+      "_nuxt/entry.a877e1a1.css"
+    ]
+  },
+  "virtual:nuxt:C:/Users/toyja/Codes/hi-kanji-nuxt3/.nuxt/error-component.mjs": {
+    "file": "_nuxt/error-component.f30ab2ec.mjs",
+    "src": "virtual:nuxt:C:/Users/toyja/Codes/hi-kanji-nuxt3/.nuxt/error-component.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+    ]
+  },
+  "pages/about.vue": {
+    "file": "_nuxt/about.55e156f0.mjs",
+    "src": "pages/about.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/glyph/[id].vue": {
+    "file": "_nuxt/_id_.99a30161.mjs",
+    "src": "pages/glyph/[id].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "_nuxt/[id].4754f72d.css"
+    ]
+  },
+  "pages/index.vue": {
+    "file": "_nuxt/index.ea3a6f43.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/list/kana.vue": {
+    "file": "_nuxt/kana.2dd2c8e0.mjs",
+    "src": "pages/list/kana.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/list/kanji/[bushu].vue": {
+    "file": "_nuxt/_bushu_.f843bee5.mjs",
+    "src": "pages/list/kanji/[bushu].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/list/kanji.vue": {
+    "file": "_nuxt/kanji.87595dcd.mjs",
+    "src": "pages/list/kanji.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/list.vue": {
+    "file": "_nuxt/list.4e566e1f.mjs",
+    "src": "pages/list.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/search/[character].vue": {
+    "file": "_nuxt/_character_.7c9558f6.mjs",
+    "src": "pages/search/[character].vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "pages/search.vue": {
+    "file": "_nuxt/search.da91058f.mjs",
+    "src": "pages/search.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "layouts/default.vue": {
+    "file": "_nuxt/default.aaee36fe.mjs",
+    "src": "layouts/default.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_IIIFContentHandler-JCX6SYFT.5a124759.mjs": {
+    "file": "_nuxt/IIIFContentHandler-JCX6SYFT.5a124759.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/universalviewer/dist/esm/Extension-KDKADH2Y.js",
+      "node_modules/universalviewer/dist/esm/Extension-2ZFGAGBN.js",
+      "node_modules/universalviewer/dist/esm/Extension-OBSB2GXO.js",
+      "node_modules/universalviewer/dist/esm/Extension-BD6AV5HO.js",
+      "node_modules/universalviewer/dist/esm/Extension-RV63KPHD.js",
+      "node_modules/universalviewer/dist/esm/Extension-6AHW5GLD.js",
+      "node_modules/universalviewer/dist/esm/Extension-M4PXC4HY.js",
+      "node_modules/universalviewer/dist/esm/Extension-TWKG5BE3.js"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/YouTubeContentHandler-G3WX7BIY.js": {
+    "file": "_nuxt/YouTubeContentHandler-G3WX7BIY.b146ca5a.mjs",
+    "src": "node_modules/universalviewer/dist/esm/YouTubeContentHandler-G3WX7BIY.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
+    "file": "_nuxt/error-404.3e755c88.mjs",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "_nuxt/error-404.7729cee9.css"
+    ]
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
+    "file": "_nuxt/error-500.67fd8bf8.mjs",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "css": [
+      "_nuxt/error-500.08851880.css"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/Extension-KDKADH2Y.js": {
+    "file": "_nuxt/Extension-KDKADH2Y.257a8fb7.mjs",
+    "src": "node_modules/universalviewer/dist/esm/Extension-KDKADH2Y.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_chunk-6K2XYBUM.dc3647c3.mjs",
+      "_chunk-BL47YR37.8a10a117.mjs",
+      "_chunk-RQD6ZDXZ.f7b64d36.mjs",
+      "_chunk-2SUYJOML.5227eb76.mjs",
+      "_chunk-7YKIH5A2.1bf302a1.mjs",
+      "_IIIFContentHandler-JCX6SYFT.5a124759.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/universalviewer/dist/esm/cy-GB-OBPEZVYZ.js",
+      "node_modules/universalviewer/dist/esm/fr-FR-EKWXRZJ7.js",
+      "node_modules/universalviewer/dist/esm/pl-PL-KQXXMOPU.js",
+      "node_modules/universalviewer/dist/esm/sv-SE-UMBWWDO2.js"
+    ]
+  },
+  "_chunk-6K2XYBUM.dc3647c3.mjs": {
+    "file": "_nuxt/chunk-6K2XYBUM.dc3647c3.mjs",
+    "imports": [
+      "_chunk-7YKIH5A2.1bf302a1.mjs",
+      "_IIIFContentHandler-JCX6SYFT.5a124759.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_chunk-BL47YR37.8a10a117.mjs": {
+    "file": "_nuxt/chunk-BL47YR37.8a10a117.mjs",
+    "imports": [
+      "_chunk-7YKIH5A2.1bf302a1.mjs"
+    ]
+  },
+  "_chunk-RQD6ZDXZ.f7b64d36.mjs": {
+    "file": "_nuxt/chunk-RQD6ZDXZ.f7b64d36.mjs",
+    "imports": [
+      "_chunk-2SUYJOML.5227eb76.mjs",
+      "_chunk-7YKIH5A2.1bf302a1.mjs",
+      "_IIIFContentHandler-JCX6SYFT.5a124759.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_chunk-2SUYJOML.5227eb76.mjs": {
+    "file": "_nuxt/chunk-2SUYJOML.5227eb76.mjs"
+  },
+  "_chunk-7YKIH5A2.1bf302a1.mjs": {
+    "file": "_nuxt/chunk-7YKIH5A2.1bf302a1.mjs",
+    "imports": [
+      "_IIIFContentHandler-JCX6SYFT.5a124759.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/Extension-2ZFGAGBN.js": {
+    "file": "_nuxt/Extension-2ZFGAGBN.1f9cc141.mjs",
+    "src": "node_modules/universalviewer/dist/esm/Extension-2ZFGAGBN.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_chunk-BL47YR37.8a10a117.mjs",
+      "_chunk-RQD6ZDXZ.f7b64d36.mjs",
+      "_chunk-2SUYJOML.5227eb76.mjs",
+      "_chunk-7YKIH5A2.1bf302a1.mjs",
+      "_IIIFContentHandler-JCX6SYFT.5a124759.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/universalviewer/dist/esm/dom-W3NEFMZX.js",
+      "node_modules/universalviewer/dist/esm/core-js-XAM5JUGB.js",
+      "node_modules/universalviewer/dist/esm/css-shim-KQ3ZUP7Q.js",
+      "node_modules/universalviewer/dist/esm/css-shim-8178315f-8178315f-LTWLFCW7.js",
+      "node_modules/universalviewer/dist/esm/shadow-css-9e778f69-c68d0961-5DSHBRJ6.js"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/Extension-OBSB2GXO.js": {
+    "file": "_nuxt/Extension-OBSB2GXO.fc785cf6.mjs",
+    "src": "node_modules/universalviewer/dist/esm/Extension-OBSB2GXO.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_chunk-3KBBTTEN.ae32ee6e.mjs",
+      "_chunk-PFNWY3RH.a21c9813.mjs",
+      "_chunk-7YKIH5A2.1bf302a1.mjs",
+      "_IIIFContentHandler-JCX6SYFT.5a124759.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/universalviewer/dist/esm/cy-GB-IHBTWEE4.js",
+      "node_modules/universalviewer/dist/esm/fr-FR-SX32APTS.js",
+      "node_modules/universalviewer/dist/esm/pl-PL-6Q4OWJUB.js",
+      "node_modules/universalviewer/dist/esm/sv-SE-5KIJEH7C.js"
+    ]
+  },
+  "_chunk-3KBBTTEN.ae32ee6e.mjs": {
+    "file": "_nuxt/chunk-3KBBTTEN.ae32ee6e.mjs",
+    "imports": [
+      "_chunk-7YKIH5A2.1bf302a1.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "_chunk-PFNWY3RH.a21c9813.mjs": {
+    "file": "_nuxt/chunk-PFNWY3RH.a21c9813.mjs",
+    "imports": [
+      "_chunk-7YKIH5A2.1bf302a1.mjs",
+      "_IIIFContentHandler-JCX6SYFT.5a124759.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/Extension-BD6AV5HO.js": {
+    "file": "_nuxt/Extension-BD6AV5HO.447c3cb5.mjs",
+    "src": "node_modules/universalviewer/dist/esm/Extension-BD6AV5HO.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_chunk-CWH7BDTG.62c8833d.mjs",
+      "_chunk-RQD6ZDXZ.f7b64d36.mjs",
+      "_chunk-2SUYJOML.5227eb76.mjs",
+      "_chunk-7YKIH5A2.1bf302a1.mjs",
+      "_IIIFContentHandler-JCX6SYFT.5a124759.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/universalviewer/dist/esm/dom-ITI5BMGR.js",
+      "node_modules/universalviewer/dist/esm/core-js-66EU3Z5G.js",
+      "node_modules/universalviewer/dist/esm/css-shim-978387b1-1e75855f-O4PYI7RC.js",
+      "node_modules/universalviewer/dist/esm/cy-GB-LTUUSXSY.js",
+      "node_modules/universalviewer/dist/esm/fr-FR-DKL5MCZE.js",
+      "node_modules/universalviewer/dist/esm/pl-PL-7Q76AJED.js",
+      "node_modules/universalviewer/dist/esm/sv-SE-PBF7APYM.js"
+    ]
+  },
+  "_chunk-CWH7BDTG.62c8833d.mjs": {
+    "file": "_nuxt/chunk-CWH7BDTG.62c8833d.mjs",
+    "imports": [
+      "_chunk-7YKIH5A2.1bf302a1.mjs",
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/Extension-RV63KPHD.js": {
+    "file": "_nuxt/Extension-RV63KPHD.23cb2480.mjs",
+    "src": "node_modules/universalviewer/dist/esm/Extension-RV63KPHD.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_chunk-CHPN5XCG.c959e8fd.mjs",
+      "_chunk-3KBBTTEN.ae32ee6e.mjs",
+      "_chunk-PFNWY3RH.a21c9813.mjs",
+      "_chunk-RQD6ZDXZ.f7b64d36.mjs",
+      "_chunk-2SUYJOML.5227eb76.mjs",
+      "_chunk-7YKIH5A2.1bf302a1.mjs",
+      "_IIIFContentHandler-JCX6SYFT.5a124759.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/universalviewer/dist/esm/cy-GB-MR4WLKYA.js",
+      "node_modules/universalviewer/dist/esm/fr-FR-G77KSGXA.js",
+      "node_modules/universalviewer/dist/esm/pl-PL-PDGLKQUY.js",
+      "node_modules/universalviewer/dist/esm/sv-SE-377YIFL3.js"
+    ]
+  },
+  "_chunk-CHPN5XCG.c959e8fd.mjs": {
+    "file": "_nuxt/chunk-CHPN5XCG.c959e8fd.mjs"
+  },
+  "node_modules/universalviewer/dist/esm/Extension-6AHW5GLD.js": {
+    "file": "_nuxt/Extension-6AHW5GLD.9a4a9198.mjs",
+    "src": "node_modules/universalviewer/dist/esm/Extension-6AHW5GLD.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_chunk-3UUJB7QR.fd324b08.mjs",
+      "_chunk-CWH7BDTG.62c8833d.mjs",
+      "_chunk-CHPN5XCG.c959e8fd.mjs",
+      "_chunk-6K2XYBUM.dc3647c3.mjs",
+      "_chunk-RQD6ZDXZ.f7b64d36.mjs",
+      "_chunk-2SUYJOML.5227eb76.mjs",
+      "_chunk-7YKIH5A2.1bf302a1.mjs",
+      "_IIIFContentHandler-JCX6SYFT.5a124759.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/universalviewer/dist/esm/cy-GB-BGXBT7C3.js",
+      "node_modules/universalviewer/dist/esm/fr-FR-WNWKAXBT.js",
+      "node_modules/universalviewer/dist/esm/pl-PL-WVUPDYLM.js",
+      "node_modules/universalviewer/dist/esm/sv-SE-N27HYQH5.js"
+    ]
+  },
+  "_chunk-3UUJB7QR.fd324b08.mjs": {
+    "file": "_nuxt/chunk-3UUJB7QR.fd324b08.mjs"
+  },
+  "node_modules/universalviewer/dist/esm/Extension-M4PXC4HY.js": {
+    "file": "_nuxt/Extension-M4PXC4HY.62f5994c.mjs",
+    "src": "node_modules/universalviewer/dist/esm/Extension-M4PXC4HY.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_chunk-3UUJB7QR.fd324b08.mjs",
+      "_chunk-CWH7BDTG.62c8833d.mjs",
+      "_chunk-CHPN5XCG.c959e8fd.mjs",
+      "_chunk-3KBBTTEN.ae32ee6e.mjs",
+      "_chunk-6K2XYBUM.dc3647c3.mjs",
+      "_chunk-2SUYJOML.5227eb76.mjs",
+      "_chunk-7YKIH5A2.1bf302a1.mjs",
+      "_IIIFContentHandler-JCX6SYFT.5a124759.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/universalviewer/dist/esm/cy-GB-45UAN3WW.js",
+      "node_modules/universalviewer/dist/esm/fr-FR-ZAUOZTUF.js",
+      "node_modules/universalviewer/dist/esm/pl-PL-W4ZT7O3X.js",
+      "node_modules/universalviewer/dist/esm/sv-SE-457UNQZJ.js"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/Extension-TWKG5BE3.js": {
+    "file": "_nuxt/Extension-TWKG5BE3.17432b33.mjs",
+    "src": "node_modules/universalviewer/dist/esm/Extension-TWKG5BE3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_chunk-CHPN5XCG.c959e8fd.mjs",
+      "_chunk-PFNWY3RH.a21c9813.mjs",
+      "_chunk-RQD6ZDXZ.f7b64d36.mjs",
+      "_chunk-2SUYJOML.5227eb76.mjs",
+      "_chunk-7YKIH5A2.1bf302a1.mjs",
+      "_IIIFContentHandler-JCX6SYFT.5a124759.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/universalviewer/dist/esm/pdfobject-RVTYN2PB.js",
+      "node_modules/universalviewer/dist/esm/cy-GB-WWDYYBGX.js",
+      "node_modules/universalviewer/dist/esm/fr-FR-Y4OU6ZBH.js",
+      "node_modules/universalviewer/dist/esm/pl-PL-UQWPTAG2.js",
+      "node_modules/universalviewer/dist/esm/sv-SE-QMXBFALH.js"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/cy-GB-OBPEZVYZ.js": {
+    "file": "_nuxt/cy-GB-OBPEZVYZ.bddef95e.mjs",
+    "src": "node_modules/universalviewer/dist/esm/cy-GB-OBPEZVYZ.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/fr-FR-EKWXRZJ7.js": {
+    "file": "_nuxt/fr-FR-EKWXRZJ7.b7b48071.mjs",
+    "src": "node_modules/universalviewer/dist/esm/fr-FR-EKWXRZJ7.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/pl-PL-KQXXMOPU.js": {
+    "file": "_nuxt/pl-PL-KQXXMOPU.58bd62d8.mjs",
+    "src": "node_modules/universalviewer/dist/esm/pl-PL-KQXXMOPU.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/sv-SE-UMBWWDO2.js": {
+    "file": "_nuxt/sv-SE-UMBWWDO2.800ebb99.mjs",
+    "src": "node_modules/universalviewer/dist/esm/sv-SE-UMBWWDO2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/dom-W3NEFMZX.js": {
+    "file": "_nuxt/dom-W3NEFMZX.1d810b43.mjs",
+    "src": "node_modules/universalviewer/dist/esm/dom-W3NEFMZX.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/core-js-XAM5JUGB.js": {
+    "file": "_nuxt/core-js-XAM5JUGB.6518fb2e.mjs",
+    "src": "node_modules/universalviewer/dist/esm/core-js-XAM5JUGB.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/css-shim-KQ3ZUP7Q.js": {
+    "file": "_nuxt/css-shim-KQ3ZUP7Q.d1c86679.mjs",
+    "src": "node_modules/universalviewer/dist/esm/css-shim-KQ3ZUP7Q.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/css-shim-8178315f-8178315f-LTWLFCW7.js": {
+    "file": "_nuxt/css-shim-8178315f-8178315f-LTWLFCW7.5dbd8b6c.mjs",
+    "src": "node_modules/universalviewer/dist/esm/css-shim-8178315f-8178315f-LTWLFCW7.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/shadow-css-9e778f69-c68d0961-5DSHBRJ6.js": {
+    "file": "_nuxt/shadow-css-9e778f69-c68d0961-5DSHBRJ6.f0f0b214.mjs",
+    "src": "node_modules/universalviewer/dist/esm/shadow-css-9e778f69-c68d0961-5DSHBRJ6.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/cy-GB-IHBTWEE4.js": {
+    "file": "_nuxt/cy-GB-IHBTWEE4.70f1901f.mjs",
+    "src": "node_modules/universalviewer/dist/esm/cy-GB-IHBTWEE4.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/fr-FR-SX32APTS.js": {
+    "file": "_nuxt/fr-FR-SX32APTS.26b525dc.mjs",
+    "src": "node_modules/universalviewer/dist/esm/fr-FR-SX32APTS.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/pl-PL-6Q4OWJUB.js": {
+    "file": "_nuxt/pl-PL-6Q4OWJUB.555c5f3d.mjs",
+    "src": "node_modules/universalviewer/dist/esm/pl-PL-6Q4OWJUB.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/sv-SE-5KIJEH7C.js": {
+    "file": "_nuxt/sv-SE-5KIJEH7C.9f025502.mjs",
+    "src": "node_modules/universalviewer/dist/esm/sv-SE-5KIJEH7C.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/dom-ITI5BMGR.js": {
+    "file": "_nuxt/dom-ITI5BMGR.6de1e855.mjs",
+    "src": "node_modules/universalviewer/dist/esm/dom-ITI5BMGR.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/core-js-66EU3Z5G.js": {
+    "file": "_nuxt/core-js-66EU3Z5G.bfbf1a5a.mjs",
+    "src": "node_modules/universalviewer/dist/esm/core-js-66EU3Z5G.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/css-shim-978387b1-1e75855f-O4PYI7RC.js": {
+    "file": "_nuxt/css-shim-978387b1-1e75855f-O4PYI7RC.3ce5d57c.mjs",
+    "src": "node_modules/universalviewer/dist/esm/css-shim-978387b1-1e75855f-O4PYI7RC.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/cy-GB-LTUUSXSY.js": {
+    "file": "_nuxt/cy-GB-LTUUSXSY.dfafc52f.mjs",
+    "src": "node_modules/universalviewer/dist/esm/cy-GB-LTUUSXSY.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/fr-FR-DKL5MCZE.js": {
+    "file": "_nuxt/fr-FR-DKL5MCZE.f8e86069.mjs",
+    "src": "node_modules/universalviewer/dist/esm/fr-FR-DKL5MCZE.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/pl-PL-7Q76AJED.js": {
+    "file": "_nuxt/pl-PL-7Q76AJED.6097398f.mjs",
+    "src": "node_modules/universalviewer/dist/esm/pl-PL-7Q76AJED.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/sv-SE-PBF7APYM.js": {
+    "file": "_nuxt/sv-SE-PBF7APYM.6db96a8d.mjs",
+    "src": "node_modules/universalviewer/dist/esm/sv-SE-PBF7APYM.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/cy-GB-MR4WLKYA.js": {
+    "file": "_nuxt/cy-GB-MR4WLKYA.815e225f.mjs",
+    "src": "node_modules/universalviewer/dist/esm/cy-GB-MR4WLKYA.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/fr-FR-G77KSGXA.js": {
+    "file": "_nuxt/fr-FR-G77KSGXA.f7fd9337.mjs",
+    "src": "node_modules/universalviewer/dist/esm/fr-FR-G77KSGXA.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/pl-PL-PDGLKQUY.js": {
+    "file": "_nuxt/pl-PL-PDGLKQUY.bb477f83.mjs",
+    "src": "node_modules/universalviewer/dist/esm/pl-PL-PDGLKQUY.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/sv-SE-377YIFL3.js": {
+    "file": "_nuxt/sv-SE-377YIFL3.35078f3c.mjs",
+    "src": "node_modules/universalviewer/dist/esm/sv-SE-377YIFL3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/cy-GB-BGXBT7C3.js": {
+    "file": "_nuxt/cy-GB-BGXBT7C3.5d9e2325.mjs",
+    "src": "node_modules/universalviewer/dist/esm/cy-GB-BGXBT7C3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/fr-FR-WNWKAXBT.js": {
+    "file": "_nuxt/fr-FR-WNWKAXBT.d0a3df56.mjs",
+    "src": "node_modules/universalviewer/dist/esm/fr-FR-WNWKAXBT.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/pl-PL-WVUPDYLM.js": {
+    "file": "_nuxt/pl-PL-WVUPDYLM.2668deef.mjs",
+    "src": "node_modules/universalviewer/dist/esm/pl-PL-WVUPDYLM.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/sv-SE-N27HYQH5.js": {
+    "file": "_nuxt/sv-SE-N27HYQH5.d85c3fa6.mjs",
+    "src": "node_modules/universalviewer/dist/esm/sv-SE-N27HYQH5.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/cy-GB-45UAN3WW.js": {
+    "file": "_nuxt/cy-GB-45UAN3WW.afd58b87.mjs",
+    "src": "node_modules/universalviewer/dist/esm/cy-GB-45UAN3WW.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/fr-FR-ZAUOZTUF.js": {
+    "file": "_nuxt/fr-FR-ZAUOZTUF.2386ba10.mjs",
+    "src": "node_modules/universalviewer/dist/esm/fr-FR-ZAUOZTUF.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/pl-PL-W4ZT7O3X.js": {
+    "file": "_nuxt/pl-PL-W4ZT7O3X.17eff498.mjs",
+    "src": "node_modules/universalviewer/dist/esm/pl-PL-W4ZT7O3X.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/sv-SE-457UNQZJ.js": {
+    "file": "_nuxt/sv-SE-457UNQZJ.06055cb1.mjs",
+    "src": "node_modules/universalviewer/dist/esm/sv-SE-457UNQZJ.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/pdfobject-RVTYN2PB.js": {
+    "file": "_nuxt/pdfobject-RVTYN2PB.f2490bf8.mjs",
+    "src": "node_modules/universalviewer/dist/esm/pdfobject-RVTYN2PB.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/cy-GB-WWDYYBGX.js": {
+    "file": "_nuxt/cy-GB-WWDYYBGX.e0978ab8.mjs",
+    "src": "node_modules/universalviewer/dist/esm/cy-GB-WWDYYBGX.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/fr-FR-Y4OU6ZBH.js": {
+    "file": "_nuxt/fr-FR-Y4OU6ZBH.674054a1.mjs",
+    "src": "node_modules/universalviewer/dist/esm/fr-FR-Y4OU6ZBH.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/pl-PL-UQWPTAG2.js": {
+    "file": "_nuxt/pl-PL-UQWPTAG2.0ca2b9fc.mjs",
+    "src": "node_modules/universalviewer/dist/esm/pl-PL-UQWPTAG2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/universalviewer/dist/esm/sv-SE-QMXBFALH.js": {
+    "file": "_nuxt/sv-SE-QMXBFALH.c8ea1587.mjs",
+    "src": "node_modules/universalviewer/dist/esm/sv-SE-QMXBFALH.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ]
+  },
+  "node_modules/nuxt/dist/app/entry.css": {
+    "file": "_nuxt/entry.a877e1a1.css",
+    "src": "node_modules/nuxt/dist/app/entry.css"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
+    "file": "_nuxt/error-404.7729cee9.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
+    "file": "_nuxt/error-500.08851880.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
+  },
+  "pages/glyph/[id].css": {
+    "file": "_nuxt/[id].4754f72d.css",
+    "src": "pages/glyph/[id].css"
+  }
+}

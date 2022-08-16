@@ -10,7 +10,8 @@
     "@nuxtjs/tailwindcss": "^5.1.2",
     "@pinia/nuxt": "^0.1.9",
     "@tailwindcss/typography": "^0.5.4",
-    "nuxt": "^3.0.0-rc.4"
+    "nuxt": "^3.0.0-rc.8",
+    "postcss-custom-properties": "^12.1.8"
   },
   "dependencies": {
     "daisyui": "^2.18.1",
