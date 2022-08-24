@@ -13,24 +13,22 @@ export const useGlyphStore = defineStore('glyphs', {
   actions: {
     async fetchData(character: string) {
       this.$reset()
-      const delegate = 0
-      let position = 1
-
-      while (1) {
-        const fetchUrl = `https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/character/${character}?delegate=${delegate}&position=${position.toString()}`
-        const { pending, data } = await useFetch<CharacterApiResult>(fetchUrl, { pick: ['list', 'search_results'] })
-        this.pending = pending
-        const resultList = data.value.list
-        const resultNum = data.value.search_results
-        resultList.forEach(item => this.addGlyph(item))
-
-        if (resultNum < 100) 
-          break
-
-        position += 100
-      }
-      
+      await this.fetchAPI(character)
       await this.convAllYear()
+    },
+    async fetchAPI(hanzi: string, position = 1) {
+      const fetchUrl = `https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/character/${hanzi}?delegate=0&position=${position.toString()}`
+      const { pending, data } = await useFetch<CharacterApiResult>(fetchUrl, {initialCache:false})
+      const resultList = data.value.list
+      let resultNum = data.value.search_results as number
+
+      resultList.forEach(item => this.addGlyph(item))
+
+      if (resultNum > 99) {
+        position += 100
+        console.log(position)
+        await this.fetchAPI(hanzi, position)
+      }
     },
     async addGlyph(glyph) {
       let date = glyph.source.date
@@ -85,7 +83,7 @@ export const useGlyphStore = defineStore('glyphs', {
     }
   },
   getters: {
-    sortedByCeDate(state){
+    sortedByCeDate(state) {
       return state.glyphs.sort((a, b) => a.source.ce_date.localeCompare(b.source.ce_date))
     }
   }
@@ -146,7 +144,7 @@ interface CharacterList {
     call_number: string,
     page: string,
     date: string,
-    ce_date?:string,
+    ce_date?: string,
     document: string,
     value: string,
     send: string,
@@ -163,8 +161,10 @@ interface CharacterList {
 }
 interface CharacterApiResult {
   status_code: string,
+  status?:string,
   search_results: number,
-  list: [CharacterList]
+  list: [CharacterList],
+  message?:string
 }
 
 // TODO
