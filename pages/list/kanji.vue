@@ -18,10 +18,10 @@ function changeSelected() {
   <div class="container mx-auto">
     <div class="form-control w-full max-w-xs p-1 md:p-3">
       <label class="label">
-        <span class="label-text">部首を選ぶ</span>
+        <span class="label-text">{{ $t('select-a-radical') }}</span>
       </label>
       <select class="select select-bordered" v-model="selected" @change="changeSelected()">
-        <option disabled selected value=''>Select to show</option>
+        <option disabled selected value=''>{{ $t('select-to-show') }}</option>
         <option v-for="option in bushu" :value="option.radical">
           [{{option.stroke}}画] {{ option.radical }} ({{ option.count}}字)
         </option>

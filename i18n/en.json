@@ -23,5 +23,11 @@
   "occupation": "Occupation",
   "date": "Date",
   "ce-date": "CE Date",
-  "all": "All"
+  "all": "All",
+  "select-jishu": "Select a type to show",
+  "select-to-show": "Select to show",
+  "kana": "Kana",
+  "kanji": "Kanji",
+  "select-a-radical": "Select a radical",
+  "select-to-show-0": "Select to show"
 }

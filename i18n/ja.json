@@ -23,5 +23,10 @@
   "date": "和暦",
   "ce-date": "西暦",
   "filter": "フィルター",
-  "all": "すべて"
+  "all": "すべて",
+  "select-jishu": "字種を選ぶ",
+  "kana": "かな",
+  "kanji": "漢字",
+  "select-to-show": "選択しなさい",
+  "select-a-radical": "部首を選ぶ"
 }
