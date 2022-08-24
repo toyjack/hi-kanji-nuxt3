@@ -21,6 +21,7 @@ const route =  useRoute()
       <div class="tabs md:px-20">
         <NuxtLink class="tab tab-lifted" to="/" activeClass="tab-active">{{ $t('home') }}</NuxtLink>
         <NuxtLink class="tab tab-lifted" to="/search" activeClass="tab-active">{{ $t('search') }}</NuxtLink>
+        <NuxtLink class="tab tab-lifted" to="/ids" activeClass="tab-active">IDS</NuxtLink>
         <NuxtLink class="tab tab-lifted" to="/list" activeClass="tab-active">{{ $t('list') }}</NuxtLink>
         <NuxtLink class="tab tab-lifted" to="/about" activeClass="tab-active">{{ $t('about') }}</NuxtLink>
       </div>

@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "daisyui": "^2.18.1",
+    "idsfind": "^2.3.5",
     "pinia": "^2.0.14",
     "universalviewer": "^4.0.0-pre.108",
     "vue-i18n": "9"
