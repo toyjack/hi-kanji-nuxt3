@@ -4,7 +4,7 @@ import kanjiList from 'public/kanji_list.json'
 
 
 
-const terms = ref("東")
+const terms = ref("")
 const results = ref([])
 
 function search(){
@@ -17,7 +17,7 @@ function search(){
   <div class="container mx-auto flex flex-col">
     <div class="form-control w-full max-w-xs p-1 md:p-3">
       <label class="label">
-        <span class="label-text">Input component to search</span>
+        <span class="label-text">{{ $t('input-component-to-search') }}</span>
       </label>
       <div class=" input-group">
         <input type="text" name="idsToSearch" class="input input-bordered input-primary w-full max-w-xs"

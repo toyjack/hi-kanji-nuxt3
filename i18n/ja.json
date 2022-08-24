@@ -28,5 +28,6 @@
   "kana": "かな",
   "kanji": "漢字",
   "select-to-show": "選択しなさい",
-  "select-a-radical": "部首を選ぶ"
+  "select-a-radical": "部首を選ぶ",
+  "input-component-to-search": "部品を入力して検索します"
 }
