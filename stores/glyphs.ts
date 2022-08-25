@@ -1,4 +1,6 @@
 import { defineStore } from 'pinia'
+import {SearchBody} from '@/types/SearchBody'
+import { Hutime } from '~~/types/Hutime'
 
 export const useGlyphStore = defineStore('glyphs', {
   state: () => ({
@@ -18,7 +20,7 @@ export const useGlyphStore = defineStore('glyphs', {
     },
     async fetchAPI(hanzi: string, position = 1) {
       const fetchUrl = `https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/character/${hanzi}?delegate=0&position=${position.toString()}`
-      const { pending, data } = await useFetch<CharacterApiResult>(fetchUrl, {initialCache:false})
+      const { pending, data } = await useFetch<SearchBody>(fetchUrl, {initialCache:false})
       const resultList = data.value.list
       let resultNum = data.value.search_results as number
 
@@ -95,14 +97,6 @@ function zenkakuConv(str) {
 }
 
 async function convYearList(dates: string[]): Promise<{ [key: string]: string }> {
-  interface HuItem {
-    text: string
-  }
-  interface HuData {
-    jsonrpc: string,
-    result: [HuItem],
-    id: string
-  }
   const fetchUrl = "http://ap.hutime.org/cal"
   const body = {
     "jsonrpc": "2.0",
@@ -112,10 +106,9 @@ async function convYearList(dates: string[]): Promise<{ [key: string]: string }>
       "ocal": "101.1",
       "otype": "year",
       "ival": dates.join('\n')
-    },
-    "id": 42
+    }
   }
-  const { data } = await useFetch<HuData>(fetchUrl, {
+  const { data } = await useFetch<Hutime>(fetchUrl, {
     method: "post",
     body: body,
     pick: ['result'],
@@ -131,40 +124,6 @@ async function convYearList(dates: string[]): Promise<{ [key: string]: string }>
   }
 
   return results
-}
-
-interface CharacterList {
-  identifer: string,
-  id: number,
-  title: string,
-  delegate: number,
-  unicode: string,
-  source: {
-    division: string,
-    call_number: string,
-    page: string,
-    date: string,
-    ce_date?: string,
-    document: string,
-    value: string,
-    send: string,
-    to: string,
-    remarks: string,
-    occupation: string
-  },
-  thumbnail_url: string,
-  manifest_url: string,
-  subject: string,
-  creator: string,
-  rights: string,
-  rights_url: string
-}
-interface CharacterApiResult {
-  status_code: string,
-  status?:string,
-  search_results: number,
-  list: [CharacterList],
-  message?:string
 }
 
 // TODO

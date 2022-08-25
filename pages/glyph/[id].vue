@@ -1,54 +1,16 @@
 <script setup lang="ts">
 import * as UV from "universalviewer/dist/esm/";
 import "../../assets/uv.css"
+import {KanjiItem } from "@/types/KanjiItem"
 
-// TODO: add type for fetched data
 const route = useRoute()
 const id = route.params.id
 const baseUrl = "https://clioapi.hi.u-tokyo.ac.jp/shipsapi/v1/W34/controlnumber/"
-interface DataBody {
-  identifer: string,
-  id: string,
-  title: string,
-  delegate: number,
-  radical_code: string,
-  unicode: string, //TODO need check
-  daikanwa_code: number,
-  chinese_reading: string,
-  japanese_reading: string,
-  source: {
-    division: string,
-    call_number: string,
-    page: number,
-    date: string,
-    document: string,
-    value: string,
-    send: string,
-    to: string,
-    remarks: string,
-    occupation: string
-  },
-  coverage: {
-    date: string,
-    geo: {
-      lat: string,
-      lon: string
-    }
-  },
-  thumbnail_url: string,
-  manifest_url: string,
-  subject: string,
-  creator: string,
-  rights: string,
-  rights_url: string
-}
-interface APIBody {
-  data: [DataBody]
-}
 const fetchUrl = baseUrl + id
-const { data: displayData, pending } = await useFetch<APIBody>(fetchUrl, { pick: ['data'] })
-const manifest_url = displayData.value.data.flat()[0].manifest_url
 
+const { data: displayData, pending } = await useFetch<KanjiItem>(fetchUrl, { pick: ['data'] })
+
+const manifest_url = displayData.value.data.flat()[0].manifest_url
 const unihanBaseUrl = "https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint="
 
 function hexStr2dec(hexStr: string) {
@@ -67,16 +29,6 @@ function getClioimgUrl(call_number, page, id) {
   callNum1 = callNum1.replace("貴", "_000ki_")
   return `https://clioimg.hi.u-tokyo.ac.jp/viewer/view/idata/000/${callNum1}/${callNum2}/${callNum3}/${page}?ci=1&kts=2&dts=34&mts=${id}`
 }
-
-// async function convYear(date: string) {
-//   // http://ap.hutime.org/cal/?method=conv&ical=1001.1&ocal=101.1&otype=year&ival=元弘3年11月9日@ja
-//   const huBaseUrl = "http://ap.hutime.org/cal/?method=conv&ical=1001.1&ocal=101.1&otype=year&ival="
-//   const fetchUrl = huBaseUrl + date
-//   // console.log(fetchUrl)
-//   // return ""
-//   const { data: huresult} = await useFetch(fetchUrl)
-//   return huresult.value
-// }
 
 // TODO add copyright
 

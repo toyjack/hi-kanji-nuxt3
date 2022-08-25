@@ -1,20 +1,12 @@
 <script setup lang="ts">
 import { storeToRefs } from 'pinia'
 import { useGlyphStore } from '@/stores/glyphs'
+import {IFilter} from '~~/types/ResultsFiltering'
+
 const glyphStore = useGlyphStore()
 const { occupations, divisions, dates, ceDates, glyphs,ifShowFilter } = storeToRefs(glyphStore)
 
-interface Ifilter {
-  division?: string,
-  document?: string,
-  book?: string,
-  occupation?: string,
-  send?: string,
-  date?: string,
-  ce_date?: string,
-}
-
-const selected = reactive<Ifilter>({
+const selected = reactive<IFilter>({
   division: 'all',
   document: 'all',
   book: 'all',
@@ -24,7 +16,7 @@ const selected = reactive<Ifilter>({
   ce_date: 'all',
 })
 
-const filter = reactive<Ifilter>({})
+const filter = reactive<IFilter>({})
 
 const filterdResults = computed(() => {
   // sorted results
@@ -58,7 +50,7 @@ watch(selected, (newSelected, old) => {
     <!-- filter -->
     <div class="self-end items-end p-1 md:hidden">
       <div class="relative inline-block w-10 mr-2 align-middle select-none">
-        <input type="checkbox" name="toggle" id="toggle" v-model="ifShowFilter" true-value="true" false-value="false"
+        <input type="checkbox" name="toggle" id="toggle" v-model="ifShowFilter"
           class="checked:bg-blue-500 outline-none focus:outline-none right-4 checked:right-0 duration-200 ease-in absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer" />
         <label for="toggle" class="block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer">
         </label>
@@ -67,7 +59,7 @@ watch(selected, (newSelected, old) => {
         {{ $t('filter') }}
       </span>
     </div>
-    <div :class="{ hidden: ifShowFilter === 'false' }" class="md:flex flex-col md:flex-row justify-center gap-1">
+    <div :class="{ hidden: ifShowFilter === false }" class="md:flex flex-col md:flex-row justify-center gap-1">
       <Select :label="$t('division')" :list="divisions" v-model:selected="selected.division" />
       <Select :label="$t('occupation')" :list="occupations" v-model:selected="selected.occupation" />
       <Select :label="$t('date')" :list="dates" v-model:selected="selected.date" />
