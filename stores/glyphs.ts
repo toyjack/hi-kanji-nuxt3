@@ -97,7 +97,7 @@ function zenkakuConv(str) {
 }
 
 async function convYearList(dates: string[]): Promise<{ [key: string]: string }> {
-  const fetchUrl = "http://ap.hutime.org/cal"
+  const fetchUrl = "https://ap.hutime.org/cal"
   const body = {
     "jsonrpc": "2.0",
     "method": "conv",

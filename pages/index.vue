@@ -23,7 +23,7 @@ function move() {
 
         <div class="flex flex-row mb-auto pt-4 gap-4">
           <NuxtLink to="/list" class="btn btn-primary">字種リスト</NuxtLink>
-          <button class="btn btn-primary">漢字部品で検索</button>
+          <NuxtLink to="/ids" class="btn btn-primary">漢字部品で検索</NuxtLink>
         </div>
       </div>
 

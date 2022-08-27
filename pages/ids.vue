@@ -33,7 +33,7 @@ function search(){
     </div>
 
 
-    <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12 md:gap-1 p-1 md:p-3">
+    <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-12 gap-y-1 md:gap-1 p-1 md:p-3">
       <div v-for="item of results"
         class="rounded-sm shadow-lg  flex flex-col item-center text-center p-2 bg-white border hover:border-blue-300 hover:border-2">
         <NuxtLink :to="'/search/' + item">{{ item }}</NuxtLink>
