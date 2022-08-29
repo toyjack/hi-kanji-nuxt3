@@ -1,0 +1,1 @@
+import{s as e,o as t,v as n,x as c,A as s}from"./entry.50cc3343.mjs";const _={},a={class:"prose mx-auto"};function r(m,p){const o=s;return t(),n("main",a,[c(o)])}const u=e(_,[["render",r]]);export{u as default};

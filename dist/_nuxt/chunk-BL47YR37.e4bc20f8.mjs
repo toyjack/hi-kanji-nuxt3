@@ -1,1 +1,0 @@
-import{X as t}from"./chunk-7YKIH5A2.3fd30fe6.mjs";var o=class extends t{constructor(e){super(e)}create(){this.setConfig("mobileFooterPanel"),super.create()}resize(){super.resize(),this.$options.css("left",Math.floor(this.$element.width()/2-this.$options.width()/2))}};export{o as t};

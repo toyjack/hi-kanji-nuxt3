@@ -1,6 +1,6 @@
 {
   "node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "_nuxt/entry.6e61bf97.mjs",
+    "file": "_nuxt/entry.50cc3343.mjs",
     "src": "node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -31,7 +31,7 @@
       "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseThead.vue",
       "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue",
       "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue",
-      "_IIIFContentHandler-JCX6SYFT.f723564c.mjs",
+      "_IIIFContentHandler-JCX6SYFT.26a0d376.mjs",
       "node_modules/universalviewer/dist/esm/YouTubeContentHandler-G3WX7BIY.js",
       "pages/about.vue",
       "pages/glyph/[id].vue",
@@ -48,11 +48,11 @@
       "layouts/default.vue"
     ],
     "css": [
-      "_nuxt/entry.57ea56e6.css"
+      "_nuxt/entry.7ef84dfb.css"
     ]
   },
   "virtual:nuxt:C:/Users/toyja/Codes/hi-kanji-nuxt3/.nuxt/error-component.mjs": {
-    "file": "_nuxt/error-component.144d7fdc.mjs",
+    "file": "_nuxt/error-component.b7ccd208.mjs",
     "src": "virtual:nuxt:C:/Users/toyja/Codes/hi-kanji-nuxt3/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -64,7 +64,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/ContentList.mjs": {
-    "file": "_nuxt/ContentList.2804419f.mjs",
+    "file": "_nuxt/ContentList.6ede799a.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/ContentList.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -72,7 +72,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.mjs": {
-    "file": "_nuxt/ContentNavigation.7e1b5f26.mjs",
+    "file": "_nuxt/ContentNavigation.cd65d4a1.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/ContentNavigation.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -80,7 +80,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Markdown.mjs": {
-    "file": "_nuxt/Markdown.774c1a31.mjs",
+    "file": "_nuxt/Markdown.d73cde49.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Markdown.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -88,7 +88,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseA.vue": {
-    "file": "_nuxt/ProseA.65036273.mjs",
+    "file": "_nuxt/ProseA.7cfc4dad.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseA.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -96,7 +96,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseBlockquote.vue": {
-    "file": "_nuxt/ProseBlockquote.a7727806.mjs",
+    "file": "_nuxt/ProseBlockquote.0f9ed754.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseBlockquote.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -104,7 +104,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue": {
-    "file": "_nuxt/ProseCode.6eb034f9.mjs",
+    "file": "_nuxt/ProseCode.ed3603bc.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -115,7 +115,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCodeInline.vue": {
-    "file": "_nuxt/ProseCodeInline.fd587e89.mjs",
+    "file": "_nuxt/ProseCodeInline.1bbb9314.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCodeInline.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -123,7 +123,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseEm.vue": {
-    "file": "_nuxt/ProseEm.3ff5d531.mjs",
+    "file": "_nuxt/ProseEm.e3038878.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseEm.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -131,7 +131,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH1.vue": {
-    "file": "_nuxt/ProseH1.d9a20fc9.mjs",
+    "file": "_nuxt/ProseH1.b129d321.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH1.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -139,7 +139,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH2.vue": {
-    "file": "_nuxt/ProseH2.05821791.mjs",
+    "file": "_nuxt/ProseH2.15345c1b.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH2.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -147,7 +147,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH3.vue": {
-    "file": "_nuxt/ProseH3.cc241e1f.mjs",
+    "file": "_nuxt/ProseH3.a639741e.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH3.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -155,7 +155,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH4.vue": {
-    "file": "_nuxt/ProseH4.444dca79.mjs",
+    "file": "_nuxt/ProseH4.be16dcbc.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH4.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -163,7 +163,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH5.vue": {
-    "file": "_nuxt/ProseH5.312406b2.mjs",
+    "file": "_nuxt/ProseH5.ceb9477e.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH5.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -171,7 +171,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH6.vue": {
-    "file": "_nuxt/ProseH6.8a50f392.mjs",
+    "file": "_nuxt/ProseH6.80765806.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseH6.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -179,7 +179,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseHr.vue": {
-    "file": "_nuxt/ProseHr.0bbcc80c.mjs",
+    "file": "_nuxt/ProseHr.bf57216d.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseHr.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -187,7 +187,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseImg.vue": {
-    "file": "_nuxt/ProseImg.eec97185.mjs",
+    "file": "_nuxt/ProseImg.ea30183d.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseImg.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -195,7 +195,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseLi.vue": {
-    "file": "_nuxt/ProseLi.efafe896.mjs",
+    "file": "_nuxt/ProseLi.1ce8e17c.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseLi.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -203,7 +203,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseOl.vue": {
-    "file": "_nuxt/ProseOl.df78cb94.mjs",
+    "file": "_nuxt/ProseOl.3b9a6c3a.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseOl.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -211,7 +211,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseP.vue": {
-    "file": "_nuxt/ProseP.1c3839e4.mjs",
+    "file": "_nuxt/ProseP.aa031151.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseP.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -219,7 +219,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseStrong.vue": {
-    "file": "_nuxt/ProseStrong.126e6e00.mjs",
+    "file": "_nuxt/ProseStrong.29ffac04.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseStrong.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -227,7 +227,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTable.vue": {
-    "file": "_nuxt/ProseTable.c423885c.mjs",
+    "file": "_nuxt/ProseTable.1178e1ec.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTable.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -235,7 +235,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTbody.vue": {
-    "file": "_nuxt/ProseTbody.4f551b9d.mjs",
+    "file": "_nuxt/ProseTbody.b5e5c574.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTbody.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -243,7 +243,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTd.vue": {
-    "file": "_nuxt/ProseTd.e03b7ea1.mjs",
+    "file": "_nuxt/ProseTd.0f620151.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTd.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -251,7 +251,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTh.vue": {
-    "file": "_nuxt/ProseTh.ca0c6703.mjs",
+    "file": "_nuxt/ProseTh.03a596f9.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTh.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -259,7 +259,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseThead.vue": {
-    "file": "_nuxt/ProseThead.f2f01a80.mjs",
+    "file": "_nuxt/ProseThead.420b0d63.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseThead.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -267,7 +267,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue": {
-    "file": "_nuxt/ProseTr.dfb47476.mjs",
+    "file": "_nuxt/ProseTr.f464661e.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseTr.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -275,7 +275,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue": {
-    "file": "_nuxt/ProseUl.4250857c.mjs",
+    "file": "_nuxt/ProseUl.e0c7d88f.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseUl.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -283,7 +283,7 @@
     ]
   },
   "node_modules/@nuxt/content/dist/runtime/composables/web-socket.mjs": {
-    "file": "_nuxt/web-socket.d9585dff.mjs",
+    "file": "_nuxt/web-socket.a7dd4645.mjs",
     "src": "node_modules/@nuxt/content/dist/runtime/composables/web-socket.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -291,7 +291,7 @@
     ]
   },
   "pages/about.vue": {
-    "file": "_nuxt/about.e66c6d9e.mjs",
+    "file": "_nuxt/about.c390078e.mjs",
     "src": "pages/about.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -299,7 +299,7 @@
     ]
   },
   "pages/glyph/[id].vue": {
-    "file": "_nuxt/_id_.87ee0ab6.mjs",
+    "file": "_nuxt/_id_.eeae7363.mjs",
     "src": "pages/glyph/[id].vue",
     "isDynamicEntry": true,
     "imports": [
@@ -310,7 +310,7 @@
     ]
   },
   "pages/ids.vue": {
-    "file": "_nuxt/ids.ec9831c7.mjs",
+    "file": "_nuxt/ids.fa94c51f.mjs",
     "src": "pages/ids.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -322,7 +322,7 @@
     "file": "_nuxt/kanji_list.167d1033.mjs"
   },
   "pages/index.vue": {
-    "file": "_nuxt/index.8fa0a46e.mjs",
+    "file": "_nuxt/index.b58c65ab.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -330,7 +330,7 @@
     ]
   },
   "pages/list/kana.vue": {
-    "file": "_nuxt/kana.a9e1bd83.mjs",
+    "file": "_nuxt/kana.00f00ffc.mjs",
     "src": "pages/list/kana.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -338,7 +338,7 @@
     ]
   },
   "pages/list/kanji/[bushu].vue": {
-    "file": "_nuxt/_bushu_.dfae6e6b.mjs",
+    "file": "_nuxt/_bushu_.4dfdd9a9.mjs",
     "src": "pages/list/kanji/[bushu].vue",
     "isDynamicEntry": true,
     "imports": [
@@ -347,7 +347,7 @@
     ]
   },
   "pages/list/kanji.vue": {
-    "file": "_nuxt/kanji.ba4b1b6d.mjs",
+    "file": "_nuxt/kanji.eba153df.mjs",
     "src": "pages/list/kanji.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -355,7 +355,7 @@
     ]
   },
   "pages/list.vue": {
-    "file": "_nuxt/list.7ea85b1d.mjs",
+    "file": "_nuxt/list.242a2179.mjs",
     "src": "pages/list.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -363,7 +363,7 @@
     ]
   },
   "pages/search/[character].vue": {
-    "file": "_nuxt/_character_.54146910.mjs",
+    "file": "_nuxt/_character_.87e9dc2c.mjs",
     "src": "pages/search/[character].vue",
     "isDynamicEntry": true,
     "imports": [
@@ -371,7 +371,7 @@
     ]
   },
   "pages/search.vue": {
-    "file": "_nuxt/search.9a1d876a.mjs",
+    "file": "_nuxt/search.736a91fe.mjs",
     "src": "pages/search.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -379,15 +379,15 @@
     ]
   },
   "layouts/default.vue": {
-    "file": "_nuxt/default.6fa5df10.mjs",
+    "file": "_nuxt/default.a48dfd73.mjs",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_IIIFContentHandler-JCX6SYFT.f723564c.mjs": {
-    "file": "_nuxt/IIIFContentHandler-JCX6SYFT.f723564c.mjs",
+  "_IIIFContentHandler-JCX6SYFT.26a0d376.mjs": {
+    "file": "_nuxt/IIIFContentHandler-JCX6SYFT.26a0d376.mjs",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
@@ -404,7 +404,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/YouTubeContentHandler-G3WX7BIY.js": {
-    "file": "_nuxt/YouTubeContentHandler-G3WX7BIY.0390a8a8.mjs",
+    "file": "_nuxt/YouTubeContentHandler-G3WX7BIY.b8db44a9.mjs",
     "src": "node_modules/universalviewer/dist/esm/YouTubeContentHandler-G3WX7BIY.js",
     "isDynamicEntry": true,
     "imports": [
@@ -412,7 +412,7 @@
     ]
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
-    "file": "_nuxt/error-404.21927bb1.mjs",
+    "file": "_nuxt/error-404.18199262.mjs",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -423,7 +423,7 @@
     ]
   },
   "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
-    "file": "_nuxt/error-500.79a0a14c.mjs",
+    "file": "_nuxt/error-500.e11738e1.mjs",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -434,17 +434,17 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/Extension-KDKADH2Y.js": {
-    "file": "_nuxt/Extension-KDKADH2Y.e146d5d9.mjs",
+    "file": "_nuxt/Extension-KDKADH2Y.49210c51.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-KDKADH2Y.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_chunk-6K2XYBUM.e02da7cd.mjs",
-      "_chunk-BL47YR37.e4bc20f8.mjs",
-      "_chunk-RQD6ZDXZ.a3133032.mjs",
+      "_chunk-6K2XYBUM.1114a777.mjs",
+      "_chunk-BL47YR37.09ce6c20.mjs",
+      "_chunk-RQD6ZDXZ.e494a321.mjs",
       "_chunk-2SUYJOML.5227eb76.mjs",
-      "_chunk-7YKIH5A2.3fd30fe6.mjs",
-      "_IIIFContentHandler-JCX6SYFT.f723564c.mjs"
+      "_chunk-7YKIH5A2.7ad4d380.mjs",
+      "_IIIFContentHandler-JCX6SYFT.26a0d376.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/cy-GB-OBPEZVYZ.js",
@@ -453,50 +453,50 @@
       "node_modules/universalviewer/dist/esm/sv-SE-UMBWWDO2.js"
     ]
   },
-  "_chunk-6K2XYBUM.e02da7cd.mjs": {
-    "file": "_nuxt/chunk-6K2XYBUM.e02da7cd.mjs",
+  "_chunk-6K2XYBUM.1114a777.mjs": {
+    "file": "_nuxt/chunk-6K2XYBUM.1114a777.mjs",
     "imports": [
-      "_chunk-7YKIH5A2.3fd30fe6.mjs",
-      "_IIIFContentHandler-JCX6SYFT.f723564c.mjs",
+      "_chunk-7YKIH5A2.7ad4d380.mjs",
+      "_IIIFContentHandler-JCX6SYFT.26a0d376.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_chunk-BL47YR37.e4bc20f8.mjs": {
-    "file": "_nuxt/chunk-BL47YR37.e4bc20f8.mjs",
+  "_chunk-BL47YR37.09ce6c20.mjs": {
+    "file": "_nuxt/chunk-BL47YR37.09ce6c20.mjs",
     "imports": [
-      "_chunk-7YKIH5A2.3fd30fe6.mjs"
+      "_chunk-7YKIH5A2.7ad4d380.mjs"
     ]
   },
-  "_chunk-RQD6ZDXZ.a3133032.mjs": {
-    "file": "_nuxt/chunk-RQD6ZDXZ.a3133032.mjs",
+  "_chunk-RQD6ZDXZ.e494a321.mjs": {
+    "file": "_nuxt/chunk-RQD6ZDXZ.e494a321.mjs",
     "imports": [
       "_chunk-2SUYJOML.5227eb76.mjs",
-      "_chunk-7YKIH5A2.3fd30fe6.mjs",
-      "_IIIFContentHandler-JCX6SYFT.f723564c.mjs",
+      "_chunk-7YKIH5A2.7ad4d380.mjs",
+      "_IIIFContentHandler-JCX6SYFT.26a0d376.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "_chunk-2SUYJOML.5227eb76.mjs": {
     "file": "_nuxt/chunk-2SUYJOML.5227eb76.mjs"
   },
-  "_chunk-7YKIH5A2.3fd30fe6.mjs": {
-    "file": "_nuxt/chunk-7YKIH5A2.3fd30fe6.mjs",
+  "_chunk-7YKIH5A2.7ad4d380.mjs": {
+    "file": "_nuxt/chunk-7YKIH5A2.7ad4d380.mjs",
     "imports": [
-      "_IIIFContentHandler-JCX6SYFT.f723564c.mjs",
+      "_IIIFContentHandler-JCX6SYFT.26a0d376.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "node_modules/universalviewer/dist/esm/Extension-2ZFGAGBN.js": {
-    "file": "_nuxt/Extension-2ZFGAGBN.ac604cbc.mjs",
+    "file": "_nuxt/Extension-2ZFGAGBN.24ba2f41.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-2ZFGAGBN.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_chunk-BL47YR37.e4bc20f8.mjs",
-      "_chunk-RQD6ZDXZ.a3133032.mjs",
+      "_chunk-BL47YR37.09ce6c20.mjs",
+      "_chunk-RQD6ZDXZ.e494a321.mjs",
       "_chunk-2SUYJOML.5227eb76.mjs",
-      "_chunk-7YKIH5A2.3fd30fe6.mjs",
-      "_IIIFContentHandler-JCX6SYFT.f723564c.mjs"
+      "_chunk-7YKIH5A2.7ad4d380.mjs",
+      "_IIIFContentHandler-JCX6SYFT.26a0d376.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/dom-W3NEFMZX.js",
@@ -507,15 +507,15 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/Extension-OBSB2GXO.js": {
-    "file": "_nuxt/Extension-OBSB2GXO.8e9c8428.mjs",
+    "file": "_nuxt/Extension-OBSB2GXO.0d1a89bc.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-OBSB2GXO.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_chunk-3KBBTTEN.f06122b7.mjs",
-      "_chunk-PFNWY3RH.48d84a59.mjs",
-      "_chunk-7YKIH5A2.3fd30fe6.mjs",
-      "_IIIFContentHandler-JCX6SYFT.f723564c.mjs"
+      "_chunk-3KBBTTEN.ca819d7b.mjs",
+      "_chunk-PFNWY3RH.ccc88d45.mjs",
+      "_chunk-7YKIH5A2.7ad4d380.mjs",
+      "_IIIFContentHandler-JCX6SYFT.26a0d376.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/cy-GB-IHBTWEE4.js",
@@ -524,32 +524,32 @@
       "node_modules/universalviewer/dist/esm/sv-SE-5KIJEH7C.js"
     ]
   },
-  "_chunk-3KBBTTEN.f06122b7.mjs": {
-    "file": "_nuxt/chunk-3KBBTTEN.f06122b7.mjs",
+  "_chunk-3KBBTTEN.ca819d7b.mjs": {
+    "file": "_nuxt/chunk-3KBBTTEN.ca819d7b.mjs",
     "imports": [
-      "_chunk-7YKIH5A2.3fd30fe6.mjs",
+      "_chunk-7YKIH5A2.7ad4d380.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_chunk-PFNWY3RH.48d84a59.mjs": {
-    "file": "_nuxt/chunk-PFNWY3RH.48d84a59.mjs",
+  "_chunk-PFNWY3RH.ccc88d45.mjs": {
+    "file": "_nuxt/chunk-PFNWY3RH.ccc88d45.mjs",
     "imports": [
-      "_chunk-7YKIH5A2.3fd30fe6.mjs",
-      "_IIIFContentHandler-JCX6SYFT.f723564c.mjs",
+      "_chunk-7YKIH5A2.7ad4d380.mjs",
+      "_IIIFContentHandler-JCX6SYFT.26a0d376.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "node_modules/universalviewer/dist/esm/Extension-BD6AV5HO.js": {
-    "file": "_nuxt/Extension-BD6AV5HO.608faf63.mjs",
+    "file": "_nuxt/Extension-BD6AV5HO.0b0d76a0.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-BD6AV5HO.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_chunk-CWH7BDTG.edcab47b.mjs",
-      "_chunk-RQD6ZDXZ.a3133032.mjs",
+      "_chunk-CWH7BDTG.665de2fd.mjs",
+      "_chunk-RQD6ZDXZ.e494a321.mjs",
       "_chunk-2SUYJOML.5227eb76.mjs",
-      "_chunk-7YKIH5A2.3fd30fe6.mjs",
-      "_IIIFContentHandler-JCX6SYFT.f723564c.mjs"
+      "_chunk-7YKIH5A2.7ad4d380.mjs",
+      "_IIIFContentHandler-JCX6SYFT.26a0d376.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/dom-ITI5BMGR.js",
@@ -561,26 +561,26 @@
       "node_modules/universalviewer/dist/esm/sv-SE-PBF7APYM.js"
     ]
   },
-  "_chunk-CWH7BDTG.edcab47b.mjs": {
-    "file": "_nuxt/chunk-CWH7BDTG.edcab47b.mjs",
+  "_chunk-CWH7BDTG.665de2fd.mjs": {
+    "file": "_nuxt/chunk-CWH7BDTG.665de2fd.mjs",
     "imports": [
-      "_chunk-7YKIH5A2.3fd30fe6.mjs",
+      "_chunk-7YKIH5A2.7ad4d380.mjs",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "node_modules/universalviewer/dist/esm/Extension-RV63KPHD.js": {
-    "file": "_nuxt/Extension-RV63KPHD.82232ed3.mjs",
+    "file": "_nuxt/Extension-RV63KPHD.ca4b70a5.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-RV63KPHD.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
       "_chunk-CHPN5XCG.c959e8fd.mjs",
-      "_chunk-3KBBTTEN.f06122b7.mjs",
-      "_chunk-PFNWY3RH.48d84a59.mjs",
-      "_chunk-RQD6ZDXZ.a3133032.mjs",
+      "_chunk-3KBBTTEN.ca819d7b.mjs",
+      "_chunk-PFNWY3RH.ccc88d45.mjs",
+      "_chunk-RQD6ZDXZ.e494a321.mjs",
       "_chunk-2SUYJOML.5227eb76.mjs",
-      "_chunk-7YKIH5A2.3fd30fe6.mjs",
-      "_IIIFContentHandler-JCX6SYFT.f723564c.mjs"
+      "_chunk-7YKIH5A2.7ad4d380.mjs",
+      "_IIIFContentHandler-JCX6SYFT.26a0d376.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/cy-GB-MR4WLKYA.js",
@@ -593,19 +593,19 @@
     "file": "_nuxt/chunk-CHPN5XCG.c959e8fd.mjs"
   },
   "node_modules/universalviewer/dist/esm/Extension-6AHW5GLD.js": {
-    "file": "_nuxt/Extension-6AHW5GLD.d8ed6b56.mjs",
+    "file": "_nuxt/Extension-6AHW5GLD.bcaa8b85.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-6AHW5GLD.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
       "_chunk-3UUJB7QR.fd324b08.mjs",
-      "_chunk-CWH7BDTG.edcab47b.mjs",
+      "_chunk-CWH7BDTG.665de2fd.mjs",
       "_chunk-CHPN5XCG.c959e8fd.mjs",
-      "_chunk-6K2XYBUM.e02da7cd.mjs",
-      "_chunk-RQD6ZDXZ.a3133032.mjs",
+      "_chunk-6K2XYBUM.1114a777.mjs",
+      "_chunk-RQD6ZDXZ.e494a321.mjs",
       "_chunk-2SUYJOML.5227eb76.mjs",
-      "_chunk-7YKIH5A2.3fd30fe6.mjs",
-      "_IIIFContentHandler-JCX6SYFT.f723564c.mjs"
+      "_chunk-7YKIH5A2.7ad4d380.mjs",
+      "_IIIFContentHandler-JCX6SYFT.26a0d376.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/cy-GB-BGXBT7C3.js",
@@ -618,19 +618,19 @@
     "file": "_nuxt/chunk-3UUJB7QR.fd324b08.mjs"
   },
   "node_modules/universalviewer/dist/esm/Extension-M4PXC4HY.js": {
-    "file": "_nuxt/Extension-M4PXC4HY.ee556dc9.mjs",
+    "file": "_nuxt/Extension-M4PXC4HY.e2366100.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-M4PXC4HY.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
       "_chunk-3UUJB7QR.fd324b08.mjs",
-      "_chunk-CWH7BDTG.edcab47b.mjs",
+      "_chunk-CWH7BDTG.665de2fd.mjs",
       "_chunk-CHPN5XCG.c959e8fd.mjs",
-      "_chunk-3KBBTTEN.f06122b7.mjs",
-      "_chunk-6K2XYBUM.e02da7cd.mjs",
+      "_chunk-3KBBTTEN.ca819d7b.mjs",
+      "_chunk-6K2XYBUM.1114a777.mjs",
       "_chunk-2SUYJOML.5227eb76.mjs",
-      "_chunk-7YKIH5A2.3fd30fe6.mjs",
-      "_IIIFContentHandler-JCX6SYFT.f723564c.mjs"
+      "_chunk-7YKIH5A2.7ad4d380.mjs",
+      "_IIIFContentHandler-JCX6SYFT.26a0d376.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/cy-GB-45UAN3WW.js",
@@ -640,17 +640,17 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/Extension-TWKG5BE3.js": {
-    "file": "_nuxt/Extension-TWKG5BE3.e65e9d36.mjs",
+    "file": "_nuxt/Extension-TWKG5BE3.7363cd63.mjs",
     "src": "node_modules/universalviewer/dist/esm/Extension-TWKG5BE3.js",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
       "_chunk-CHPN5XCG.c959e8fd.mjs",
-      "_chunk-PFNWY3RH.48d84a59.mjs",
-      "_chunk-RQD6ZDXZ.a3133032.mjs",
+      "_chunk-PFNWY3RH.ccc88d45.mjs",
+      "_chunk-RQD6ZDXZ.e494a321.mjs",
       "_chunk-2SUYJOML.5227eb76.mjs",
-      "_chunk-7YKIH5A2.3fd30fe6.mjs",
-      "_IIIFContentHandler-JCX6SYFT.f723564c.mjs"
+      "_chunk-7YKIH5A2.7ad4d380.mjs",
+      "_IIIFContentHandler-JCX6SYFT.26a0d376.mjs"
     ],
     "dynamicImports": [
       "node_modules/universalviewer/dist/esm/pdfobject-RVTYN2PB.js",
@@ -661,7 +661,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/cy-GB-OBPEZVYZ.js": {
-    "file": "_nuxt/cy-GB-OBPEZVYZ.ec46d050.mjs",
+    "file": "_nuxt/cy-GB-OBPEZVYZ.d4810128.mjs",
     "src": "node_modules/universalviewer/dist/esm/cy-GB-OBPEZVYZ.js",
     "isDynamicEntry": true,
     "imports": [
@@ -669,7 +669,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/fr-FR-EKWXRZJ7.js": {
-    "file": "_nuxt/fr-FR-EKWXRZJ7.70a21622.mjs",
+    "file": "_nuxt/fr-FR-EKWXRZJ7.462c4a07.mjs",
     "src": "node_modules/universalviewer/dist/esm/fr-FR-EKWXRZJ7.js",
     "isDynamicEntry": true,
     "imports": [
@@ -677,7 +677,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pl-PL-KQXXMOPU.js": {
-    "file": "_nuxt/pl-PL-KQXXMOPU.7f5e1ea1.mjs",
+    "file": "_nuxt/pl-PL-KQXXMOPU.9c0ac91c.mjs",
     "src": "node_modules/universalviewer/dist/esm/pl-PL-KQXXMOPU.js",
     "isDynamicEntry": true,
     "imports": [
@@ -685,7 +685,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/sv-SE-UMBWWDO2.js": {
-    "file": "_nuxt/sv-SE-UMBWWDO2.95607802.mjs",
+    "file": "_nuxt/sv-SE-UMBWWDO2.3db4d793.mjs",
     "src": "node_modules/universalviewer/dist/esm/sv-SE-UMBWWDO2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -693,7 +693,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/dom-W3NEFMZX.js": {
-    "file": "_nuxt/dom-W3NEFMZX.4e79417a.mjs",
+    "file": "_nuxt/dom-W3NEFMZX.d4fcf3b5.mjs",
     "src": "node_modules/universalviewer/dist/esm/dom-W3NEFMZX.js",
     "isDynamicEntry": true,
     "imports": [
@@ -701,7 +701,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/core-js-XAM5JUGB.js": {
-    "file": "_nuxt/core-js-XAM5JUGB.a3f2d61b.mjs",
+    "file": "_nuxt/core-js-XAM5JUGB.d6bce7fb.mjs",
     "src": "node_modules/universalviewer/dist/esm/core-js-XAM5JUGB.js",
     "isDynamicEntry": true,
     "imports": [
@@ -709,7 +709,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/css-shim-KQ3ZUP7Q.js": {
-    "file": "_nuxt/css-shim-KQ3ZUP7Q.f8bdc653.mjs",
+    "file": "_nuxt/css-shim-KQ3ZUP7Q.acb13083.mjs",
     "src": "node_modules/universalviewer/dist/esm/css-shim-KQ3ZUP7Q.js",
     "isDynamicEntry": true,
     "imports": [
@@ -717,7 +717,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/css-shim-8178315f-8178315f-LTWLFCW7.js": {
-    "file": "_nuxt/css-shim-8178315f-8178315f-LTWLFCW7.eff5e4e1.mjs",
+    "file": "_nuxt/css-shim-8178315f-8178315f-LTWLFCW7.a9e9a009.mjs",
     "src": "node_modules/universalviewer/dist/esm/css-shim-8178315f-8178315f-LTWLFCW7.js",
     "isDynamicEntry": true,
     "imports": [
@@ -725,7 +725,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/shadow-css-9e778f69-c68d0961-5DSHBRJ6.js": {
-    "file": "_nuxt/shadow-css-9e778f69-c68d0961-5DSHBRJ6.186d5871.mjs",
+    "file": "_nuxt/shadow-css-9e778f69-c68d0961-5DSHBRJ6.ca9c0c32.mjs",
     "src": "node_modules/universalviewer/dist/esm/shadow-css-9e778f69-c68d0961-5DSHBRJ6.js",
     "isDynamicEntry": true,
     "imports": [
@@ -733,7 +733,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/cy-GB-IHBTWEE4.js": {
-    "file": "_nuxt/cy-GB-IHBTWEE4.06056fb0.mjs",
+    "file": "_nuxt/cy-GB-IHBTWEE4.8b8a68d5.mjs",
     "src": "node_modules/universalviewer/dist/esm/cy-GB-IHBTWEE4.js",
     "isDynamicEntry": true,
     "imports": [
@@ -741,7 +741,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/fr-FR-SX32APTS.js": {
-    "file": "_nuxt/fr-FR-SX32APTS.40912be2.mjs",
+    "file": "_nuxt/fr-FR-SX32APTS.b0ffc095.mjs",
     "src": "node_modules/universalviewer/dist/esm/fr-FR-SX32APTS.js",
     "isDynamicEntry": true,
     "imports": [
@@ -749,7 +749,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pl-PL-6Q4OWJUB.js": {
-    "file": "_nuxt/pl-PL-6Q4OWJUB.a7c2be30.mjs",
+    "file": "_nuxt/pl-PL-6Q4OWJUB.08d10df6.mjs",
     "src": "node_modules/universalviewer/dist/esm/pl-PL-6Q4OWJUB.js",
     "isDynamicEntry": true,
     "imports": [
@@ -757,7 +757,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/sv-SE-5KIJEH7C.js": {
-    "file": "_nuxt/sv-SE-5KIJEH7C.8548a564.mjs",
+    "file": "_nuxt/sv-SE-5KIJEH7C.b7f0e8a6.mjs",
     "src": "node_modules/universalviewer/dist/esm/sv-SE-5KIJEH7C.js",
     "isDynamicEntry": true,
     "imports": [
@@ -765,7 +765,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/dom-ITI5BMGR.js": {
-    "file": "_nuxt/dom-ITI5BMGR.666d1e9a.mjs",
+    "file": "_nuxt/dom-ITI5BMGR.b2b2c7db.mjs",
     "src": "node_modules/universalviewer/dist/esm/dom-ITI5BMGR.js",
     "isDynamicEntry": true,
     "imports": [
@@ -773,7 +773,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/core-js-66EU3Z5G.js": {
-    "file": "_nuxt/core-js-66EU3Z5G.1ee7b94e.mjs",
+    "file": "_nuxt/core-js-66EU3Z5G.408778c1.mjs",
     "src": "node_modules/universalviewer/dist/esm/core-js-66EU3Z5G.js",
     "isDynamicEntry": true,
     "imports": [
@@ -781,7 +781,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/css-shim-978387b1-1e75855f-O4PYI7RC.js": {
-    "file": "_nuxt/css-shim-978387b1-1e75855f-O4PYI7RC.5d506ac1.mjs",
+    "file": "_nuxt/css-shim-978387b1-1e75855f-O4PYI7RC.78caaa56.mjs",
     "src": "node_modules/universalviewer/dist/esm/css-shim-978387b1-1e75855f-O4PYI7RC.js",
     "isDynamicEntry": true,
     "imports": [
@@ -789,7 +789,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/cy-GB-LTUUSXSY.js": {
-    "file": "_nuxt/cy-GB-LTUUSXSY.62190f2e.mjs",
+    "file": "_nuxt/cy-GB-LTUUSXSY.a64c0c2a.mjs",
     "src": "node_modules/universalviewer/dist/esm/cy-GB-LTUUSXSY.js",
     "isDynamicEntry": true,
     "imports": [
@@ -797,7 +797,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/fr-FR-DKL5MCZE.js": {
-    "file": "_nuxt/fr-FR-DKL5MCZE.d403a6aa.mjs",
+    "file": "_nuxt/fr-FR-DKL5MCZE.9fd1aaec.mjs",
     "src": "node_modules/universalviewer/dist/esm/fr-FR-DKL5MCZE.js",
     "isDynamicEntry": true,
     "imports": [
@@ -805,7 +805,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pl-PL-7Q76AJED.js": {
-    "file": "_nuxt/pl-PL-7Q76AJED.442f6349.mjs",
+    "file": "_nuxt/pl-PL-7Q76AJED.6c6649c1.mjs",
     "src": "node_modules/universalviewer/dist/esm/pl-PL-7Q76AJED.js",
     "isDynamicEntry": true,
     "imports": [
@@ -813,7 +813,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/sv-SE-PBF7APYM.js": {
-    "file": "_nuxt/sv-SE-PBF7APYM.4bdd1e3b.mjs",
+    "file": "_nuxt/sv-SE-PBF7APYM.c82e3e22.mjs",
     "src": "node_modules/universalviewer/dist/esm/sv-SE-PBF7APYM.js",
     "isDynamicEntry": true,
     "imports": [
@@ -821,7 +821,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/cy-GB-MR4WLKYA.js": {
-    "file": "_nuxt/cy-GB-MR4WLKYA.a1a8180a.mjs",
+    "file": "_nuxt/cy-GB-MR4WLKYA.dcde47c9.mjs",
     "src": "node_modules/universalviewer/dist/esm/cy-GB-MR4WLKYA.js",
     "isDynamicEntry": true,
     "imports": [
@@ -829,7 +829,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/fr-FR-G77KSGXA.js": {
-    "file": "_nuxt/fr-FR-G77KSGXA.591c7584.mjs",
+    "file": "_nuxt/fr-FR-G77KSGXA.5c033128.mjs",
     "src": "node_modules/universalviewer/dist/esm/fr-FR-G77KSGXA.js",
     "isDynamicEntry": true,
     "imports": [
@@ -837,7 +837,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pl-PL-PDGLKQUY.js": {
-    "file": "_nuxt/pl-PL-PDGLKQUY.e68111b1.mjs",
+    "file": "_nuxt/pl-PL-PDGLKQUY.0a8665fe.mjs",
     "src": "node_modules/universalviewer/dist/esm/pl-PL-PDGLKQUY.js",
     "isDynamicEntry": true,
     "imports": [
@@ -845,7 +845,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/sv-SE-377YIFL3.js": {
-    "file": "_nuxt/sv-SE-377YIFL3.e93455a0.mjs",
+    "file": "_nuxt/sv-SE-377YIFL3.62af8b1e.mjs",
     "src": "node_modules/universalviewer/dist/esm/sv-SE-377YIFL3.js",
     "isDynamicEntry": true,
     "imports": [
@@ -853,7 +853,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/cy-GB-BGXBT7C3.js": {
-    "file": "_nuxt/cy-GB-BGXBT7C3.ba5b63fb.mjs",
+    "file": "_nuxt/cy-GB-BGXBT7C3.c6b57842.mjs",
     "src": "node_modules/universalviewer/dist/esm/cy-GB-BGXBT7C3.js",
     "isDynamicEntry": true,
     "imports": [
@@ -861,7 +861,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/fr-FR-WNWKAXBT.js": {
-    "file": "_nuxt/fr-FR-WNWKAXBT.e19a8fe2.mjs",
+    "file": "_nuxt/fr-FR-WNWKAXBT.1c66d896.mjs",
     "src": "node_modules/universalviewer/dist/esm/fr-FR-WNWKAXBT.js",
     "isDynamicEntry": true,
     "imports": [
@@ -869,7 +869,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pl-PL-WVUPDYLM.js": {
-    "file": "_nuxt/pl-PL-WVUPDYLM.499b898b.mjs",
+    "file": "_nuxt/pl-PL-WVUPDYLM.2976ba65.mjs",
     "src": "node_modules/universalviewer/dist/esm/pl-PL-WVUPDYLM.js",
     "isDynamicEntry": true,
     "imports": [
@@ -877,7 +877,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/sv-SE-N27HYQH5.js": {
-    "file": "_nuxt/sv-SE-N27HYQH5.1d3929a8.mjs",
+    "file": "_nuxt/sv-SE-N27HYQH5.3f157075.mjs",
     "src": "node_modules/universalviewer/dist/esm/sv-SE-N27HYQH5.js",
     "isDynamicEntry": true,
     "imports": [
@@ -885,7 +885,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/cy-GB-45UAN3WW.js": {
-    "file": "_nuxt/cy-GB-45UAN3WW.d037e92d.mjs",
+    "file": "_nuxt/cy-GB-45UAN3WW.495a580b.mjs",
     "src": "node_modules/universalviewer/dist/esm/cy-GB-45UAN3WW.js",
     "isDynamicEntry": true,
     "imports": [
@@ -893,7 +893,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/fr-FR-ZAUOZTUF.js": {
-    "file": "_nuxt/fr-FR-ZAUOZTUF.fb8ac59b.mjs",
+    "file": "_nuxt/fr-FR-ZAUOZTUF.0464f09a.mjs",
     "src": "node_modules/universalviewer/dist/esm/fr-FR-ZAUOZTUF.js",
     "isDynamicEntry": true,
     "imports": [
@@ -901,7 +901,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pl-PL-W4ZT7O3X.js": {
-    "file": "_nuxt/pl-PL-W4ZT7O3X.33cd7437.mjs",
+    "file": "_nuxt/pl-PL-W4ZT7O3X.6c9678c8.mjs",
     "src": "node_modules/universalviewer/dist/esm/pl-PL-W4ZT7O3X.js",
     "isDynamicEntry": true,
     "imports": [
@@ -909,7 +909,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/sv-SE-457UNQZJ.js": {
-    "file": "_nuxt/sv-SE-457UNQZJ.dcb05ac1.mjs",
+    "file": "_nuxt/sv-SE-457UNQZJ.998b9c41.mjs",
     "src": "node_modules/universalviewer/dist/esm/sv-SE-457UNQZJ.js",
     "isDynamicEntry": true,
     "imports": [
@@ -917,7 +917,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pdfobject-RVTYN2PB.js": {
-    "file": "_nuxt/pdfobject-RVTYN2PB.5708efbf.mjs",
+    "file": "_nuxt/pdfobject-RVTYN2PB.bd62fa70.mjs",
     "src": "node_modules/universalviewer/dist/esm/pdfobject-RVTYN2PB.js",
     "isDynamicEntry": true,
     "imports": [
@@ -925,7 +925,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/cy-GB-WWDYYBGX.js": {
-    "file": "_nuxt/cy-GB-WWDYYBGX.5cdc77ec.mjs",
+    "file": "_nuxt/cy-GB-WWDYYBGX.347eee1a.mjs",
     "src": "node_modules/universalviewer/dist/esm/cy-GB-WWDYYBGX.js",
     "isDynamicEntry": true,
     "imports": [
@@ -933,7 +933,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/fr-FR-Y4OU6ZBH.js": {
-    "file": "_nuxt/fr-FR-Y4OU6ZBH.7aa7b919.mjs",
+    "file": "_nuxt/fr-FR-Y4OU6ZBH.a708a898.mjs",
     "src": "node_modules/universalviewer/dist/esm/fr-FR-Y4OU6ZBH.js",
     "isDynamicEntry": true,
     "imports": [
@@ -941,7 +941,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/pl-PL-UQWPTAG2.js": {
-    "file": "_nuxt/pl-PL-UQWPTAG2.27869813.mjs",
+    "file": "_nuxt/pl-PL-UQWPTAG2.1f1f104f.mjs",
     "src": "node_modules/universalviewer/dist/esm/pl-PL-UQWPTAG2.js",
     "isDynamicEntry": true,
     "imports": [
@@ -949,7 +949,7 @@
     ]
   },
   "node_modules/universalviewer/dist/esm/sv-SE-QMXBFALH.js": {
-    "file": "_nuxt/sv-SE-QMXBFALH.a5320bbc.mjs",
+    "file": "_nuxt/sv-SE-QMXBFALH.5a7c42b7.mjs",
     "src": "node_modules/universalviewer/dist/esm/sv-SE-QMXBFALH.js",
     "isDynamicEntry": true,
     "imports": [
@@ -957,20 +957,20 @@
     ]
   },
   "node_modules/nuxt/dist/app/entry.css": {
-    "file": "_nuxt/entry.57ea56e6.css",
+    "file": "_nuxt/entry.7ef84dfb.css",
     "src": "node_modules/nuxt/dist/app/entry.css"
   },
   "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.css": {
     "file": "_nuxt/ProseCode.e63e49c6.css",
     "src": "node_modules/@nuxt/content/dist/runtime/components/Prose/ProseCode.css"
   },
-  "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
-    "file": "_nuxt/error-500.08851880.css",
-    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
-  },
   "node_modules/@nuxt/ui-templates/dist/templates/error-404.css": {
     "file": "_nuxt/error-404.7729cee9.css",
     "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.css"
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.css": {
+    "file": "_nuxt/error-500.08851880.css",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.css"
   },
   "pages/glyph/[id].css": {
     "file": "_nuxt/[id].4754f72d.css",
